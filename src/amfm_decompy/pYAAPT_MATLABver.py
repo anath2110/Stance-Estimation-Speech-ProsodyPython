@@ -44,7 +44,8 @@ import numpy as np
 import numpy.lib.stride_tricks as stride_tricks
 from scipy.signal import firwin, hanning, kaiser, medfilt, lfilter
 import scipy.interpolate as scipy_interp
-import amfm_decompy.basic_tools as basic
+#import amfm_decompy.basic_tools as basic
+import readau_structobject as austruct
 
 
 """
@@ -303,7 +304,7 @@ def yaapt(signal, **kwargs):
     # Set the default values for the parameters.
     #---------------------------------------------------------------
     parameters = {}
-    #parameters['frame_length'] = kwargs.get('frame_length', 35.0)   #Length of each analysis frame (ms)
+   
     parameters['frame_length'] = kwargs.get('frame_length', 35.0)   #Length of each analysis frame (ms)
     # WARNING: In the original MATLAB YAAPT 4.0 code the next parameter is called
     # "frame_lengtht" which is quite similar to the previous one "frame_length".
@@ -355,8 +356,9 @@ def yaapt(signal, **kwargs):
     #---------------------------------------------------------------
     # Create the signal objects and filter them.
     #---------------------------------------------------------------
-    fir_filter = BandpassFilter(signal.fs, parameters)
-    nonlinear_sign = basic.SignalObj(signal.data**2, signal.fs)
+    #fir_filter = BandpassFilter(signal.fs, parameters)
+    #nonlinear_sign = basic.SignalObj(signal.data**2, signal.fs)
+    nonlinear_sign = austruct.SignalObj(signal.data**2, signal.fs)
 
     #signal.filtered_version(fir_filter)
     #nonlinear_sign.filtered_version(fir_filter)
