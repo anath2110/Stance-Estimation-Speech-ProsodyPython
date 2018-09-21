@@ -1,0 +1,2841 @@
+creating the model
+reading../testeng/featurefile/mono4.fss
+nsegments 977
+monster called
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython1110Kbnd8pmFireUpdateRoosterRockFire.aul.mat
+filename 1110Kbnd8pmFireUpdateRoosterRockFire.au
+key 1110Kbnd8pmFireUpdateRoosterRockFire.au
+filename same as key name as saved file
+filename 1110Kbnd8pmFireUpdateRoosterRockFire.au
+key 1110Kbnd8pmFireUpdateRoosterRockFire.au
+filename same as key name as saved file
+filename 1110Kbnd8pmFireUpdateRoosterRockFire.au
+key 1110Kbnd8pmFireUpdateRoosterRockFire.au
+filename same as key name as saved file
+filename 1110Kbnd8pmFireUpdateRoosterRockFire.au
+key 1110Kbnd8pmFireUpdateRoosterRockFire.au
+filename same as key name as saved file
+filename 1110Kbnd8pmFireUpdateRoosterRockFire.au
+key 1110Kbnd8pmFireUpdateRoosterRockFire.au
+filename same as key name as saved file
+filename 1110Kbnd8pmFireUpdateRoosterRockFire.au
+key 1110Kbnd8pmFireUpdateRoosterRockFire.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython1110KbndNewsWarmSpringsFireUpdate.aul.mat
+filename 1110KbndNewsWarmSpringsFireUpdate.au
+key 1110KbndNewsWarmSpringsFireUpdate.au
+filename same as key name as saved file
+filename 1110KbndNewsWarmSpringsFireUpdate.au
+key 1110KbndNewsWarmSpringsFireUpdate.au
+filename same as key name as saved file
+filename 1110KbndNewsWarmSpringsFireUpdate.au
+key 1110KbndNewsWarmSpringsFireUpdate.au
+filename same as key name as saved file
+filename 1110KbndNewsWarmSpringsFireUpdate.au
+key 1110KbndNewsWarmSpringsFireUpdate.au
+filename same as key name as saved file
+filename 1110KbndNewsWarmSpringsFireUpdate.au
+key 1110KbndNewsWarmSpringsFireUpdate.au
+filename same as key name as saved file
+filename 1110KbndNewsWarmSpringsFireUpdate.au
+key 1110KbndNewsWarmSpringsFireUpdate.au
+filename same as key name as saved file
+filename 1110KbndNewsWarmSpringsFireUpdate.au
+key 1110KbndNewsWarmSpringsFireUpdate.au
+filename same as key name as saved file
+filename 1110KbndNewsWarmSpringsFireUpdate.au
+key 1110KbndNewsWarmSpringsFireUpdate.au
+filename same as key name as saved file
+filename 1110KbndNewsWarmSpringsFireUpdate.au
+key 1110KbndNewsWarmSpringsFireUpdate.au
+filename same as key name as saved file
+filename 1110KbndNewsWarmSpringsFireUpdate.au
+key 1110KbndNewsWarmSpringsFireUpdate.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython1110KbndRadioNewsFire10amReport.aul.mat
+filename 1110KbndRadioNewsFire10amReport.au
+key 1110KbndRadioNewsFire10amReport.au
+filename same as key name as saved file
+filename 1110KbndRadioNewsFire10amReport.au
+key 1110KbndRadioNewsFire10amReport.au
+filename same as key name as saved file
+filename 1110KbndRadioNewsFire10amReport.au
+key 1110KbndRadioNewsFire10amReport.au
+filename same as key name as saved file
+filename 1110KbndRadioNewsFire10amReport.au
+key 1110KbndRadioNewsFire10amReport.au
+filename same as key name as saved file
+filename 1110KbndRadioNewsFire10amReport.au
+key 1110KbndRadioNewsFire10amReport.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython1110KbndRadioNewsLowerDeschutesFireComplex.aul.mat
+filename 1110KbndRadioNewsLowerDeschutesFireComplex.au
+key 1110KbndRadioNewsLowerDeschutesFireComplex.au
+filename same as key name as saved file
+filename 1110KbndRadioNewsLowerDeschutesFireComplex.au
+key 1110KbndRadioNewsLowerDeschutesFireComplex.au
+filename same as key name as saved file
+filename 1110KbndRadioNewsLowerDeschutesFireComplex.au
+key 1110KbndRadioNewsLowerDeschutesFireComplex.au
+filename same as key name as saved file
+filename 1110KbndRadioNewsLowerDeschutesFireComplex.au
+key 1110KbndRadioNewsLowerDeschutesFireComplex.au
+filename same as key name as saved file
+filename 1110KbndRadioNewsLowerDeschutesFireComplex.au
+key 1110KbndRadioNewsLowerDeschutesFireComplex.au
+filename same as key name as saved file
+filename 1110KbndRadioNewsLowerDeschutesFireComplex.au
+key 1110KbndRadioNewsLowerDeschutesFireComplex.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython12pmnewsfeb152013.aul.mat
+filename 12pmnewsfeb152013.au
+key 12pmnewsfeb152013.au
+filename same as key name as saved file
+filename 12pmnewsfeb152013.au
+key 12pmnewsfeb152013.au
+filename same as key name as saved file
+filename 12pmnewsfeb152013.au
+key 12pmnewsfeb152013.au
+filename same as key name as saved file
+filename 12pmnewsfeb152013.au
+key 12pmnewsfeb152013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython12pmnewsfeb192013.aul.mat
+filename 12pmnewsfeb192013.au
+key 12pmnewsfeb192013.au
+filename same as key name as saved file
+filename 12pmnewsfeb192013.au
+key 12pmnewsfeb192013.au
+filename same as key name as saved file
+filename 12pmnewsfeb192013.au
+key 12pmnewsfeb192013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython2010_0826KbndNoonNews.aul.mat
+filename 2010_0826KbndNoonNews.au
+key 2010_0826KbndNoonNews.au
+filename same as key name as saved file
+filename 2010_0826KbndNoonNews.au
+key 2010_0826KbndNoonNews.au
+filename same as key name as saved file
+filename 2010_0826KbndNoonNews.au
+key 2010_0826KbndNoonNews.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython2010_0920SistersAreaPowerOutage.aul.mat
+filename 2010_0920SistersAreaPowerOutage.au
+key 2010_0920SistersAreaPowerOutage.au
+filename same as key name as saved file
+filename 2010_0920SistersAreaPowerOutage.au
+key 2010_0920SistersAreaPowerOutage.au
+filename same as key name as saved file
+filename 2010_0920SistersAreaPowerOutage.au
+key 2010_0920SistersAreaPowerOutage.au
+filename same as key name as saved file
+filename 2010_0920SistersAreaPowerOutage.au
+key 2010_0920SistersAreaPowerOutage.au
+filename same as key name as saved file
+filename 2010_0920SistersAreaPowerOutage.au
+key 2010_0920SistersAreaPowerOutage.au
+filename same as key name as saved file
+filename 2010_0920SistersAreaPowerOutage.au
+key 2010_0920SistersAreaPowerOutage.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython2ndWeekendNewscastJuly292012.aul.mat
+filename 2ndWeekendNewscastJuly292012.au
+key 2ndWeekendNewscastJuly292012.au
+filename same as key name as saved file
+filename 2ndWeekendNewscastJuly292012.au
+key 2ndWeekendNewscastJuly292012.au
+filename same as key name as saved file
+filename 2ndWeekendNewscastJuly292012.au
+key 2ndWeekendNewscastJuly292012.au
+filename same as key name as saved file
+filename 2ndWeekendNewscastJuly292012.au
+key 2ndWeekendNewscastJuly292012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython3pmnewsfeb182013.aul.mat
+filename 3pmnewsfeb182013.au
+key 3pmnewsfeb182013.au
+filename same as key name as saved file
+filename 3pmnewsfeb182013.au
+key 3pmnewsfeb182013.au
+filename same as key name as saved file
+filename 3pmnewsfeb182013.au
+key 3pmnewsfeb182013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython4thWatchWithJustenFaullBreakingNewsUpdateEBOLAPandemicHoax.aul.mat
+filename 4thWatchWithJustenFaullBreakingNewsUpdateEBOLAPandemicHoax.au
+key 4thWatchWithJustenFaullBreakingNewsUpdateEBOLAPandemicHoax.au
+filename same as key name as saved file
+filename 4thWatchWithJustenFaullBreakingNewsUpdateEBOLAPandemicHoax.au
+key 4thWatchWithJustenFaullBreakingNewsUpdateEBOLAPandemicHoax.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython1110KbndTakeFive5-31-12FireSeasonPreview.aul.mat
+filename 1110KbndTakeFive5-31-12FireSeasonPreview.au
+key 1110KbndTakeFive5-31-12FireSeasonPreview.au
+filename same as key name as saved file
+filename 1110KbndTakeFive5-31-12FireSeasonPreview.au
+key 1110KbndTakeFive5-31-12FireSeasonPreview.au
+filename same as key name as saved file
+filename 1110KbndTakeFive5-31-12FireSeasonPreview.au
+key 1110KbndTakeFive5-31-12FireSeasonPreview.au
+filename same as key name as saved file
+filename 1110KbndTakeFive5-31-12FireSeasonPreview.au
+key 1110KbndTakeFive5-31-12FireSeasonPreview.au
+filename same as key name as saved file
+filename 1110KbndTakeFive5-31-12FireSeasonPreview.au
+key 1110KbndTakeFive5-31-12FireSeasonPreview.au
+filename same as key name as saved file
+filename 1110KbndTakeFive5-31-12FireSeasonPreview.au
+key 1110KbndTakeFive5-31-12FireSeasonPreview.au
+filename same as key name as saved file
+filename 1110KbndTakeFive5-31-12FireSeasonPreview.au
+key 1110KbndTakeFive5-31-12FireSeasonPreview.au
+filename same as key name as saved file
+filename 1110KbndTakeFive5-31-12FireSeasonPreview.au
+key 1110KbndTakeFive5-31-12FireSeasonPreview.au
+filename same as key name as saved file
+filename 1110KbndTakeFive5-31-12FireSeasonPreview.au
+key 1110KbndTakeFive5-31-12FireSeasonPreview.au
+filename same as key name as saved file
+filename 1110KbndTakeFive5-31-12FireSeasonPreview.au
+key 1110KbndTakeFive5-31-12FireSeasonPreview.au
+filename same as key name as saved file
+filename 1110KbndTakeFive5-31-12FireSeasonPreview.au
+key 1110KbndTakeFive5-31-12FireSeasonPreview.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython5PmNewscastNovember262012.aul.mat
+filename 5PmNewscastNovember262012.au
+key 5PmNewscastNovember262012.au
+filename same as key name as saved file
+filename 5PmNewscastNovember262012.au
+key 5PmNewscastNovember262012.au
+filename same as key name as saved file
+filename 5PmNewscastNovember262012.au
+key 5PmNewscastNovember262012.au
+filename same as key name as saved file
+filename 5PmNewscastNovember262012.au
+key 5PmNewscastNovember262012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython6AMNewsAug122013.aul.mat
+filename 6AMNewsAug122013.au
+key 6AMNewsAug122013.au
+filename same as key name as saved file
+filename 6AMNewsAug122013.au
+key 6AMNewsAug122013.au
+filename same as key name as saved file
+filename 6AMNewsAug122013.au
+key 6AMNewsAug122013.au
+filename same as key name as saved file
+filename 6AMNewsAug122013.au
+key 6AMNewsAug122013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython7amnews3292013.aul.mat
+filename 7amnews3292013.au
+key 7amnews3292013.au
+filename same as key name as saved file
+filename 7amnews3292013.au
+key 7amnews3292013.au
+filename same as key name as saved file
+filename 7amnews3292013.au
+key 7amnews3292013.au
+filename same as key name as saved file
+filename 7amnews3292013.au
+key 7amnews3292013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython8amnews3272013.aul.mat
+filename 8amnews3272013.au
+key 8amnews3272013.au
+filename same as key name as saved file
+filename 8amnews3272013.au
+key 8amnews3272013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython911-aSpiritualEmergency.aul.mat
+filename 911-aSpiritualEmergency.au
+key 911-aSpiritualEmergency.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpython95WIILROCKNIUShootingscalls.aul.mat
+!!warning very long for %s: frames %f to %f!?
+ b'95WIILROCKNIUShootingscalls' 0 0
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonAfternoonNewsDecember12012.aul.mat
+filename AfternoonNewsDecember12012.au
+key AfternoonNewsDecember12012.au
+filename same as key name as saved file
+filename AfternoonNewsDecember12012.au
+key AfternoonNewsDecember12012.au
+filename same as key name as saved file
+filename AfternoonNewsDecember12012.au
+key AfternoonNewsDecember12012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonApisonTornadoPart2.aul.mat
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonAug13FoxComputerAd.aul.mat
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonBlackout2003TorontoRadioRecordings1.aul.mat
+filename Blackout2003TorontoRadioRecordings1.au
+key Blackout2003TorontoRadioRecordings1.au
+filename same as key name as saved file
+filename Blackout2003TorontoRadioRecordings1.au
+key Blackout2003TorontoRadioRecordings1.au
+filename same as key name as saved file
+filename Blackout2003TorontoRadioRecordings1.au
+key Blackout2003TorontoRadioRecordings1.au
+filename same as key name as saved file
+filename Blackout2003TorontoRadioRecordings1.au
+key Blackout2003TorontoRadioRecordings1.au
+filename same as key name as saved file
+filename Blackout2003TorontoRadioRecordings1.au
+key Blackout2003TorontoRadioRecordings1.au
+filename same as key name as saved file
+filename Blackout2003TorontoRadioRecordings1.au
+key Blackout2003TorontoRadioRecordings1.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonBlackout2003TorontoRadioRecordings15.aul.mat
+filename Blackout2003TorontoRadioRecordings15.au
+key Blackout2003TorontoRadioRecordings15.au
+filename same as key name as saved file
+!!warning very long for %s: frames %f to %f!?
+ b'Blackout2003TorontoRadioRecordings15' 699 0
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonBlackout2003TorontoRadioRecordings16.aul.mat
+filename Blackout2003TorontoRadioRecordings16.au
+key Blackout2003TorontoRadioRecordings16.au
+filename same as key name as saved file
+filename Blackout2003TorontoRadioRecordings16.au
+key Blackout2003TorontoRadioRecordings16.au
+filename same as key name as saved file
+filename Blackout2003TorontoRadioRecordings16.au
+key Blackout2003TorontoRadioRecordings16.au
+filename same as key name as saved file
+filename Blackout2003TorontoRadioRecordings16.au
+key Blackout2003TorontoRadioRecordings16.au
+filename same as key name as saved file
+filename Blackout2003TorontoRadioRecordings16.au
+key Blackout2003TorontoRadioRecordings16.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'Blackout2003TorontoRadioRecordings16' 22999 32300
+filename Blackout2003TorontoRadioRecordings16.au
+key Blackout2003TorontoRadioRecordings16.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'Blackout2003TorontoRadioRecordings16' 32299 61600
+filename Blackout2003TorontoRadioRecordings16.au
+key Blackout2003TorontoRadioRecordings16.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonBreakingNews_201502.aul.mat
+filename BreakingNews_201502.au
+key BreakingNews_201502.au
+filename same as key name as saved file
+filename BreakingNews_201502.au
+key BreakingNews_201502.au
+filename same as key name as saved file
+filename BreakingNews_201502.au
+key BreakingNews_201502.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonBuildingBridgesNewYorkersProtestRacistPoliceKillings.aul.mat
+filename BuildingBridgesNewYorkersProtestRacistPoliceKillings.au
+key BuildingBridgesNewYorkersProtestRacistPoliceKillings.au
+filename same as key name as saved file
+filename BuildingBridgesNewYorkersProtestRacistPoliceKillings.au
+key BuildingBridgesNewYorkersProtestRacistPoliceKillings.au
+filename same as key name as saved file
+!!warning very long for %s: frames %f to %f!?
+ b'BuildingBridgesNewYorkersProtestRacistPoliceKillings' 8399 0
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonChevLocalNewsAugust7.aul.mat
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+filename ChevLocalNewsAugust7.au
+key ChevLocalNewsAugust7.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonChevLocalNewsJuly10.aul.mat
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly10.au
+key ChevLocalNewsJuly10.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonChevLocalNewsJuly17.aul.mat
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly17.au
+key ChevLocalNewsJuly17.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonChevLocalNewsJuly24.aul.mat
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly24.au
+key ChevLocalNewsJuly24.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonChevLocalNewsJuly31.aul.mat
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly31.au
+key ChevLocalNewsJuly31.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonChevLocalNewsJuly3.aul.mat
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+filename ChevLocalNewsJuly3.au
+key ChevLocalNewsJuly3.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonColoradoWildfire-08-16-12.aul.mat
+filename ColoradoWildfire-08-16-12.au
+key ColoradoWildfire-08-16-12.au
+filename same as key name as saved file
+filename ColoradoWildfire-08-16-12.au
+key ColoradoWildfire-08-16-12.au
+filename same as key name as saved file
+filename ColoradoWildfire-08-16-12.au
+key ColoradoWildfire-08-16-12.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonDistrictPollingLocationDisaster.aul.mat
+filename DistrictPollingLocationDisaster.au
+key DistrictPollingLocationDisaster.au
+filename same as key name as saved file
+filename DistrictPollingLocationDisaster.au
+key DistrictPollingLocationDisaster.au
+filename same as key name as saved file
+filename DistrictPollingLocationDisaster.au
+key DistrictPollingLocationDisaster.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonESGlobalHeat.aul.mat
+filename ESGlobalHeat.au
+key ESGlobalHeat.au
+filename same as key name as saved file
+filename ESGlobalHeat.au
+key ESGlobalHeat.au
+filename same as key name as saved file
+filename ESGlobalHeat.au
+key ESGlobalHeat.au
+filename same as key name as saved file
+filename ESGlobalHeat.au
+key ESGlobalHeat.au
+filename same as key name as saved file
+filename ESGlobalHeat.au
+key ESGlobalHeat.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonESJapan1.aul.mat
+filename ESJapan1.au
+key ESJapan1.au
+filename same as key name as saved file
+filename ESJapan1.au
+key ESJapan1.au
+filename same as key name as saved file
+filename ESJapan1.au
+key ESJapan1.au
+filename same as key name as saved file
+filename ESJapan1.au
+key ESJapan1.au
+filename same as key name as saved file
+filename ESJapan1.au
+key ESJapan1.au
+filename same as key name as saved file
+filename ESJapan1.au
+key ESJapan1.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonFallSevereWeather.aul.mat
+filename FallSevereWeather.au
+key FallSevereWeather.au
+filename same as key name as saved file
+filename FallSevereWeather.au
+key FallSevereWeather.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonGoodNewsRadio4.aul.mat
+filename GoodNewsRadio4.au
+key GoodNewsRadio4.au
+filename same as key name as saved file
+filename GoodNewsRadio4.au
+key GoodNewsRadio4.au
+filename same as key name as saved file
+filename GoodNewsRadio4.au
+key GoodNewsRadio4.au
+filename same as key name as saved file
+filename GoodNewsRadio4.au
+key GoodNewsRadio4.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonHurricaneIreneDelawaresPerspective1.aul.mat
+filename HurricaneIreneDelawaresPerspective1.au
+key HurricaneIreneDelawaresPerspective1.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective1.au
+key HurricaneIreneDelawaresPerspective1.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective1.au
+key HurricaneIreneDelawaresPerspective1.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective1.au
+key HurricaneIreneDelawaresPerspective1.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective1.au
+key HurricaneIreneDelawaresPerspective1.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective1.au
+key HurricaneIreneDelawaresPerspective1.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective1.au
+key HurricaneIreneDelawaresPerspective1.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective1.au
+key HurricaneIreneDelawaresPerspective1.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective1.au
+key HurricaneIreneDelawaresPerspective1.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective1.au
+key HurricaneIreneDelawaresPerspective1.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective1.au
+key HurricaneIreneDelawaresPerspective1.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonHurricaneIreneDelawaresPerspective20.aul.mat
+filename HurricaneIreneDelawaresPerspective20.au
+key HurricaneIreneDelawaresPerspective20.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonHurricaneIreneDelawaresPerspective24.aul.mat
+filename HurricaneIreneDelawaresPerspective24.au
+key HurricaneIreneDelawaresPerspective24.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective24.au
+key HurricaneIreneDelawaresPerspective24.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective24.au
+key HurricaneIreneDelawaresPerspective24.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective24.au
+key HurricaneIreneDelawaresPerspective24.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective24.au
+key HurricaneIreneDelawaresPerspective24.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective24.au
+key HurricaneIreneDelawaresPerspective24.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective24.au
+key HurricaneIreneDelawaresPerspective24.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'HurricaneIreneDelawaresPerspective24' 12999 15200
+filename HurricaneIreneDelawaresPerspective24.au
+key HurricaneIreneDelawaresPerspective24.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'HurricaneIreneDelawaresPerspective24' 15199 22100
+filename HurricaneIreneDelawaresPerspective24.au
+key HurricaneIreneDelawaresPerspective24.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'HurricaneIreneDelawaresPerspective24' 22099 26600
+filename HurricaneIreneDelawaresPerspective24.au
+key HurricaneIreneDelawaresPerspective24.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'HurricaneIreneDelawaresPerspective24' 26599 28900
+filename HurricaneIreneDelawaresPerspective24.au
+key HurricaneIreneDelawaresPerspective24.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'HurricaneIreneDelawaresPerspective24' 28899 32900
+filename HurricaneIreneDelawaresPerspective24.au
+key HurricaneIreneDelawaresPerspective24.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonHurricaneIreneDelawaresPerspective3.aul.mat
+filename HurricaneIreneDelawaresPerspective3.au
+key HurricaneIreneDelawaresPerspective3.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective3.au
+key HurricaneIreneDelawaresPerspective3.au
+filename same as key name as saved file
+filename HurricaneIreneDelawaresPerspective3.au
+key HurricaneIreneDelawaresPerspective3.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonInsight_100714.aul.mat
+filename Insight_100714.au
+key Insight_100714.au
+filename same as key name as saved file
+filename Insight_100714.au
+key Insight_100714.au
+filename same as key name as saved file
+filename Insight_100714.au
+key Insight_100714.au
+filename same as key name as saved file
+filename Insight_100714.au
+key Insight_100714.au
+filename same as key name as saved file
+!!warning very long for %s: frames %f to %f!?
+ b'Insight_100714' 85899 0
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonKbnd500News.aul.mat
+filename Kbnd500News.au
+key Kbnd500News.au
+filename same as key name as saved file
+filename Kbnd500News.au
+key Kbnd500News.au
+filename same as key name as saved file
+filename Kbnd500News.au
+key Kbnd500News.au
+filename same as key name as saved file
+filename Kbnd500News.au
+key Kbnd500News.au
+filename same as key name as saved file
+filename Kbnd500News.au
+key Kbnd500News.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonKbndMoringNews.aul.mat
+filename KbndMoringNews.au
+key KbndMoringNews.au
+filename same as key name as saved file
+filename KbndMoringNews.au
+key KbndMoringNews.au
+filename same as key name as saved file
+filename KbndMoringNews.au
+key KbndMoringNews.au
+filename same as key name as saved file
+filename KbndMoringNews.au
+key KbndMoringNews.au
+filename same as key name as saved file
+filename KbndMoringNews.au
+key KbndMoringNews.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonKbndNews01-03-11.aul.mat
+filename KbndNews01-03-11.au
+key KbndNews01-03-11.au
+filename same as key name as saved file
+filename KbndNews01-03-11.au
+key KbndNews01-03-11.au
+filename same as key name as saved file
+filename KbndNews01-03-11.au
+key KbndNews01-03-11.au
+filename same as key name as saved file
+filename KbndNews01-03-11.au
+key KbndNews01-03-11.au
+filename same as key name as saved file
+filename KbndNews01-03-11.au
+key KbndNews01-03-11.au
+filename same as key name as saved file
+filename KbndNews01-03-11.au
+key KbndNews01-03-11.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonKbndNews02-04-11.aul.mat
+filename KbndNews02-04-11.au
+key KbndNews02-04-11.au
+filename same as key name as saved file
+filename KbndNews02-04-11.au
+key KbndNews02-04-11.au
+filename same as key name as saved file
+filename KbndNews02-04-11.au
+key KbndNews02-04-11.au
+filename same as key name as saved file
+filename KbndNews02-04-11.au
+key KbndNews02-04-11.au
+filename same as key name as saved file
+filename KbndNews02-04-11.au
+key KbndNews02-04-11.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonKbndNews02-07-11.aul.mat
+filename KbndNews02-07-11.au
+key KbndNews02-07-11.au
+filename same as key name as saved file
+filename KbndNews02-07-11.au
+key KbndNews02-07-11.au
+filename same as key name as saved file
+filename KbndNews02-07-11.au
+key KbndNews02-07-11.au
+filename same as key name as saved file
+filename KbndNews02-07-11.au
+key KbndNews02-07-11.au
+filename same as key name as saved file
+filename KbndNews02-07-11.au
+key KbndNews02-07-11.au
+filename same as key name as saved file
+filename KbndNews02-07-11.au
+key KbndNews02-07-11.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonLocalNewsUpdateNovember182012.aul.mat
+filename LocalNewsUpdateNovember182012.au
+key LocalNewsUpdateNovember182012.au
+filename same as key name as saved file
+filename LocalNewsUpdateNovember182012.au
+key LocalNewsUpdateNovember182012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonLocalNewsUpdateNovember252012.aul.mat
+filename LocalNewsUpdateNovember252012.au
+key LocalNewsUpdateNovember252012.au
+filename same as key name as saved file
+filename LocalNewsUpdateNovember252012.au
+key LocalNewsUpdateNovember252012.au
+filename same as key name as saved file
+filename LocalNewsUpdateNovember252012.au
+key LocalNewsUpdateNovember252012.au
+filename same as key name as saved file
+filename LocalNewsUpdateNovember252012.au
+key LocalNewsUpdateNovember252012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonLocalNewsUpdateNovember42012.aul.mat
+filename LocalNewsUpdateNovember42012.au
+key LocalNewsUpdateNovember42012.au
+filename same as key name as saved file
+filename LocalNewsUpdateNovember42012.au
+key LocalNewsUpdateNovember42012.au
+filename same as key name as saved file
+filename LocalNewsUpdateNovember42012.au
+key LocalNewsUpdateNovember42012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonLocalNewsUpdateoctober142012.aul.mat
+filename LocalNewsUpdateoctober142012.au
+key LocalNewsUpdateoctober142012.au
+filename same as key name as saved file
+filename LocalNewsUpdateoctober142012.au
+key LocalNewsUpdateoctober142012.au
+filename same as key name as saved file
+filename LocalNewsUpdateoctober142012.au
+key LocalNewsUpdateoctober142012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonLocalNewsUpdateOctober282012.aul.mat
+filename LocalNewsUpdateOctober282012.au
+key LocalNewsUpdateOctober282012.au
+filename same as key name as saved file
+filename LocalNewsUpdateOctober282012.au
+key LocalNewsUpdateOctober282012.au
+filename same as key name as saved file
+filename LocalNewsUpdateOctober282012.au
+key LocalNewsUpdateOctober282012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonLocalNewsUpdateOctober72012.aul.mat
+filename LocalNewsUpdateOctober72012.au
+key LocalNewsUpdateOctober72012.au
+filename same as key name as saved file
+filename LocalNewsUpdateOctober72012.au
+key LocalNewsUpdateOctober72012.au
+filename same as key name as saved file
+filename LocalNewsUpdateOctober72012.au
+key LocalNewsUpdateOctober72012.au
+filename same as key name as saved file
+filename LocalNewsUpdateOctober72012.au
+key LocalNewsUpdateOctober72012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonLocalNewsUpdateSeptember302012.aul.mat
+filename LocalNewsUpdateSeptember302012.au
+key LocalNewsUpdateSeptember302012.au
+filename same as key name as saved file
+filename LocalNewsUpdateSeptember302012.au
+key LocalNewsUpdateSeptember302012.au
+filename same as key name as saved file
+filename LocalNewsUpdateSeptember302012.au
+key LocalNewsUpdateSeptember302012.au
+filename same as key name as saved file
+filename LocalNewsUpdateSeptember302012.au
+key LocalNewsUpdateSeptember302012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonLumberjackNewsRadioDec32014.aul.mat
+filename LumberjackNewsRadioDec32014.au
+key LumberjackNewsRadioDec32014.au
+filename same as key name as saved file
+filename LumberjackNewsRadioDec32014.au
+key LumberjackNewsRadioDec32014.au
+filename same as key name as saved file
+filename LumberjackNewsRadioDec32014.au
+key LumberjackNewsRadioDec32014.au
+filename same as key name as saved file
+filename LumberjackNewsRadioDec32014.au
+key LumberjackNewsRadioDec32014.au
+filename same as key name as saved file
+filename LumberjackNewsRadioDec32014.au
+key LumberjackNewsRadioDec32014.au
+filename same as key name as saved file
+filename LumberjackNewsRadioDec32014.au
+key LumberjackNewsRadioDec32014.au
+filename same as key name as saved file
+filename LumberjackNewsRadioDec32014.au
+key LumberjackNewsRadioDec32014.au
+filename same as key name as saved file
+filename LumberjackNewsRadioDec32014.au
+key LumberjackNewsRadioDec32014.au
+filename same as key name as saved file
+filename LumberjackNewsRadioDec32014.au
+key LumberjackNewsRadioDec32014.au
+filename same as key name as saved file
+filename LumberjackNewsRadioDec32014.au
+key LumberjackNewsRadioDec32014.au
+filename same as key name as saved file
+filename LumberjackNewsRadioDec32014.au
+key LumberjackNewsRadioDec32014.au
+filename same as key name as saved file
+filename LumberjackNewsRadioDec32014.au
+key LumberjackNewsRadioDec32014.au
+filename same as key name as saved file
+filename LumberjackNewsRadioDec32014.au
+key LumberjackNewsRadioDec32014.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonMothersDayInShelbyCountyAsFloodWatersRiseOfficialsEvacuate.aul.mat
+filename MothersDayInShelbyCountyAsFloodWatersRiseOfficialsEvacuate.au
+key MothersDayInShelbyCountyAsFloodWatersRiseOfficialsEvacuate.au
+filename same as key name as saved file
+filename MothersDayInShelbyCountyAsFloodWatersRiseOfficialsEvacuate.au
+key MothersDayInShelbyCountyAsFloodWatersRiseOfficialsEvacuate.au
+filename same as key name as saved file
+filename MothersDayInShelbyCountyAsFloodWatersRiseOfficialsEvacuate.au
+key MothersDayInShelbyCountyAsFloodWatersRiseOfficialsEvacuate.au
+filename same as key name as saved file
+filename MothersDayInShelbyCountyAsFloodWatersRiseOfficialsEvacuate.au
+key MothersDayInShelbyCountyAsFloodWatersRiseOfficialsEvacuate.au
+filename same as key name as saved file
+filename MothersDayInShelbyCountyAsFloodWatersRiseOfficialsEvacuate.au
+key MothersDayInShelbyCountyAsFloodWatersRiseOfficialsEvacuate.au
+filename same as key name as saved file
+filename MothersDayInShelbyCountyAsFloodWatersRiseOfficialsEvacuate.au
+key MothersDayInShelbyCountyAsFloodWatersRiseOfficialsEvacuate.au
+filename same as key name as saved file
+filename MothersDayInShelbyCountyAsFloodWatersRiseOfficialsEvacuate.au
+key MothersDayInShelbyCountyAsFloodWatersRiseOfficialsEvacuate.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonNationalNewsUpdateNovember42012.aul.mat
+filename NationalNewsUpdateNovember42012.au
+key NationalNewsUpdateNovember42012.au
+filename same as key name as saved file
+filename NationalNewsUpdateNovember42012.au
+key NationalNewsUpdateNovember42012.au
+filename same as key name as saved file
+filename NationalNewsUpdateNovember42012.au
+key NationalNewsUpdateNovember42012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonNEWS81113.aul.mat
+filename NEWS81113.au
+key NEWS81113.au
+filename same as key name as saved file
+filename NEWS81113.au
+key NEWS81113.au
+filename same as key name as saved file
+filename NEWS81113.au
+key NEWS81113.au
+filename same as key name as saved file
+filename NEWS81113.au
+key NEWS81113.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonNiuShootingsFeb15th.aul.mat
+filename NiuShootingsFeb15th.au
+key NiuShootingsFeb15th.au
+filename same as key name as saved file
+filename NiuShootingsFeb15th.au
+key NiuShootingsFeb15th.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonNoonNews-KchaRadio.aul.mat
+filename NoonNews-KchaRadio.au
+key NoonNews-KchaRadio.au
+filename same as key name as saved file
+filename NoonNews-KchaRadio.au
+key NoonNews-KchaRadio.au
+filename same as key name as saved file
+filename NoonNews-KchaRadio.au
+key NoonNews-KchaRadio.au
+filename same as key name as saved file
+filename NoonNews-KchaRadio.au
+key NoonNews-KchaRadio.au
+filename same as key name as saved file
+filename NoonNews-KchaRadio.au
+key NoonNews-KchaRadio.au
+filename same as key name as saved file
+filename NoonNews-KchaRadio.au
+key NoonNews-KchaRadio.au
+filename same as key name as saved file
+filename NoonNews-KchaRadio.au
+key NoonNews-KchaRadio.au
+filename same as key name as saved file
+filename NoonNews-KchaRadio.au
+key NoonNews-KchaRadio.au
+filename same as key name as saved file
+filename NoonNews-KchaRadio.au
+key NoonNews-KchaRadio.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSaturdaySportsUpdateDecember12012.aul.mat
+filename SaturdaySportsUpdateDecember12012.au
+key SaturdaySportsUpdateDecember12012.au
+filename same as key name as saved file
+filename SaturdaySportsUpdateDecember12012.au
+key SaturdaySportsUpdateDecember12012.au
+filename same as key name as saved file
+filename SaturdaySportsUpdateDecember12012.au
+key SaturdaySportsUpdateDecember12012.au
+filename same as key name as saved file
+filename SaturdaySportsUpdateDecember12012.au
+key SaturdaySportsUpdateDecember12012.au
+filename same as key name as saved file
+filename SaturdaySportsUpdateDecember12012.au
+key SaturdaySportsUpdateDecember12012.au
+filename same as key name as saved file
+filename SaturdaySportsUpdateDecember12012.au
+key SaturdaySportsUpdateDecember12012.au
+filename same as key name as saved file
+filename SaturdaySportsUpdateDecember12012.au
+key SaturdaySportsUpdateDecember12012.au
+filename same as key name as saved file
+filename SaturdaySportsUpdateDecember12012.au
+key SaturdaySportsUpdateDecember12012.au
+filename same as key name as saved file
+filename SaturdaySportsUpdateDecember12012.au
+key SaturdaySportsUpdateDecember12012.au
+filename same as key name as saved file
+filename SaturdaySportsUpdateDecember12012.au
+key SaturdaySportsUpdateDecember12012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonScotinterveiw.aul.mat
+filename Scotinterveiw.au
+key Scotinterveiw.au
+filename same as key name as saved file
+filename Scotinterveiw.au
+key Scotinterveiw.au
+filename same as key name as saved file
+filename Scotinterveiw.au
+key Scotinterveiw.au
+filename same as key name as saved file
+filename Scotinterveiw.au
+key Scotinterveiw.au
+filename same as key name as saved file
+filename Scotinterveiw.au
+key Scotinterveiw.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSeptember2ndSundayMorningNews.aul.mat
+filename September2ndSundayMorningNews.au
+key September2ndSundayMorningNews.au
+filename same as key name as saved file
+filename September2ndSundayMorningNews.au
+key September2ndSundayMorningNews.au
+filename same as key name as saved file
+filename September2ndSundayMorningNews.au
+key September2ndSundayMorningNews.au
+filename same as key name as saved file
+filename September2ndSundayMorningNews.au
+key September2ndSundayMorningNews.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSundayMorningNewsSeptember92012.aul.mat
+filename SundayMorningNewsSeptember92012.au
+key SundayMorningNewsSeptember92012.au
+filename same as key name as saved file
+filename SundayMorningNewsSeptember92012.au
+key SundayMorningNewsSeptember92012.au
+filename same as key name as saved file
+filename SundayMorningNewsSeptember92012.au
+key SundayMorningNewsSeptember92012.au
+filename same as key name as saved file
+filename SundayMorningNewsSeptember92012.au
+key SundayMorningNewsSeptember92012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS07152013.aul.mat
+filename SpaceCoastRadioNEWS07152013.au
+key SpaceCoastRadioNEWS07152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07152013.au
+key SpaceCoastRadioNEWS07152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07152013.au
+key SpaceCoastRadioNEWS07152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07152013.au
+key SpaceCoastRadioNEWS07152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07152013.au
+key SpaceCoastRadioNEWS07152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07152013.au
+key SpaceCoastRadioNEWS07152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07152013.au
+key SpaceCoastRadioNEWS07152013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS07162013.aul.mat
+filename SpaceCoastRadioNEWS07162013.au
+key SpaceCoastRadioNEWS07162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07162013.au
+key SpaceCoastRadioNEWS07162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07162013.au
+key SpaceCoastRadioNEWS07162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07162013.au
+key SpaceCoastRadioNEWS07162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07162013.au
+key SpaceCoastRadioNEWS07162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07162013.au
+key SpaceCoastRadioNEWS07162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07162013.au
+key SpaceCoastRadioNEWS07162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07162013.au
+key SpaceCoastRadioNEWS07162013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS07172013.aul.mat
+filename SpaceCoastRadioNEWS07172013.au
+key SpaceCoastRadioNEWS07172013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07172013.au
+key SpaceCoastRadioNEWS07172013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07172013.au
+key SpaceCoastRadioNEWS07172013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07172013.au
+key SpaceCoastRadioNEWS07172013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07172013.au
+key SpaceCoastRadioNEWS07172013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07172013.au
+key SpaceCoastRadioNEWS07172013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07172013.au
+key SpaceCoastRadioNEWS07172013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS07182013.aul.mat
+filename SpaceCoastRadioNEWS07182013.au
+key SpaceCoastRadioNEWS07182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07182013.au
+key SpaceCoastRadioNEWS07182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07182013.au
+key SpaceCoastRadioNEWS07182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07182013.au
+key SpaceCoastRadioNEWS07182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07182013.au
+key SpaceCoastRadioNEWS07182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07182013.au
+key SpaceCoastRadioNEWS07182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07182013.au
+key SpaceCoastRadioNEWS07182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07182013.au
+key SpaceCoastRadioNEWS07182013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS07192013.aul.mat
+filename SpaceCoastRadioNEWS07192013.au
+key SpaceCoastRadioNEWS07192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07192013.au
+key SpaceCoastRadioNEWS07192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07192013.au
+key SpaceCoastRadioNEWS07192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07192013.au
+key SpaceCoastRadioNEWS07192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07192013.au
+key SpaceCoastRadioNEWS07192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07192013.au
+key SpaceCoastRadioNEWS07192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07192013.au
+key SpaceCoastRadioNEWS07192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07192013.au
+key SpaceCoastRadioNEWS07192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07192013.au
+key SpaceCoastRadioNEWS07192013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS07212013.aul.mat
+filename SpaceCoastRadioNEWS07212013.au
+key SpaceCoastRadioNEWS07212013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07212013.au
+key SpaceCoastRadioNEWS07212013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07212013.au
+key SpaceCoastRadioNEWS07212013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07212013.au
+key SpaceCoastRadioNEWS07212013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07212013.au
+key SpaceCoastRadioNEWS07212013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07212013.au
+key SpaceCoastRadioNEWS07212013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07212013.au
+key SpaceCoastRadioNEWS07212013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07212013.au
+key SpaceCoastRadioNEWS07212013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS07222013.aul.mat
+filename SpaceCoastRadioNEWS07222013.au
+key SpaceCoastRadioNEWS07222013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07222013.au
+key SpaceCoastRadioNEWS07222013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07222013.au
+key SpaceCoastRadioNEWS07222013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07222013.au
+key SpaceCoastRadioNEWS07222013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07222013.au
+key SpaceCoastRadioNEWS07222013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07222013.au
+key SpaceCoastRadioNEWS07222013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07222013.au
+key SpaceCoastRadioNEWS07222013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS07232013.aul.mat
+filename SpaceCoastRadioNEWS07232013.au
+key SpaceCoastRadioNEWS07232013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07232013.au
+key SpaceCoastRadioNEWS07232013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07232013.au
+key SpaceCoastRadioNEWS07232013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07232013.au
+key SpaceCoastRadioNEWS07232013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07232013.au
+key SpaceCoastRadioNEWS07232013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07232013.au
+key SpaceCoastRadioNEWS07232013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07232013.au
+key SpaceCoastRadioNEWS07232013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS07242013.aul.mat
+filename SpaceCoastRadioNEWS07242013.au
+key SpaceCoastRadioNEWS07242013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07242013.au
+key SpaceCoastRadioNEWS07242013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07242013.au
+key SpaceCoastRadioNEWS07242013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07242013.au
+key SpaceCoastRadioNEWS07242013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07242013.au
+key SpaceCoastRadioNEWS07242013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07242013.au
+key SpaceCoastRadioNEWS07242013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07242013.au
+key SpaceCoastRadioNEWS07242013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07242013.au
+key SpaceCoastRadioNEWS07242013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS07252013.aul.mat
+filename SpaceCoastRadioNEWS07252013.au
+key SpaceCoastRadioNEWS07252013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07252013.au
+key SpaceCoastRadioNEWS07252013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07252013.au
+key SpaceCoastRadioNEWS07252013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07252013.au
+key SpaceCoastRadioNEWS07252013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07252013.au
+key SpaceCoastRadioNEWS07252013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07252013.au
+key SpaceCoastRadioNEWS07252013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07252013.au
+key SpaceCoastRadioNEWS07252013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07252013.au
+key SpaceCoastRadioNEWS07252013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS07262013.aul.mat
+filename SpaceCoastRadioNEWS07262013.au
+key SpaceCoastRadioNEWS07262013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07262013.au
+key SpaceCoastRadioNEWS07262013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07262013.au
+key SpaceCoastRadioNEWS07262013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07262013.au
+key SpaceCoastRadioNEWS07262013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07262013.au
+key SpaceCoastRadioNEWS07262013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07262013.au
+key SpaceCoastRadioNEWS07262013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07262013.au
+key SpaceCoastRadioNEWS07262013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS07272013.aul.mat
+filename SpaceCoastRadioNEWS07272013.au
+key SpaceCoastRadioNEWS07272013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07272013.au
+key SpaceCoastRadioNEWS07272013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07272013.au
+key SpaceCoastRadioNEWS07272013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07272013.au
+key SpaceCoastRadioNEWS07272013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07272013.au
+key SpaceCoastRadioNEWS07272013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07272013.au
+key SpaceCoastRadioNEWS07272013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS07302013.aul.mat
+filename SpaceCoastRadioNEWS07302013.au
+key SpaceCoastRadioNEWS07302013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07302013.au
+key SpaceCoastRadioNEWS07302013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07302013.au
+key SpaceCoastRadioNEWS07302013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07302013.au
+key SpaceCoastRadioNEWS07302013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07302013.au
+key SpaceCoastRadioNEWS07302013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07302013.au
+key SpaceCoastRadioNEWS07302013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS07312013.aul.mat
+filename SpaceCoastRadioNEWS07312013.au
+key SpaceCoastRadioNEWS07312013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07312013.au
+key SpaceCoastRadioNEWS07312013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07312013.au
+key SpaceCoastRadioNEWS07312013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07312013.au
+key SpaceCoastRadioNEWS07312013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07312013.au
+key SpaceCoastRadioNEWS07312013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS07312013.au
+key SpaceCoastRadioNEWS07312013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08012013.aul.mat
+filename SpaceCoastRadioNEWS08012013.au
+key SpaceCoastRadioNEWS08012013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08012013.au
+key SpaceCoastRadioNEWS08012013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08012013.au
+key SpaceCoastRadioNEWS08012013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08012013.au
+key SpaceCoastRadioNEWS08012013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08012013.au
+key SpaceCoastRadioNEWS08012013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08012013.au
+key SpaceCoastRadioNEWS08012013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08012013.au
+key SpaceCoastRadioNEWS08012013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08012013.au
+key SpaceCoastRadioNEWS08012013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08022013.aul.mat
+filename SpaceCoastRadioNEWS08022013.au
+key SpaceCoastRadioNEWS08022013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08022013.au
+key SpaceCoastRadioNEWS08022013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08022013.au
+key SpaceCoastRadioNEWS08022013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08022013.au
+key SpaceCoastRadioNEWS08022013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08022013.au
+key SpaceCoastRadioNEWS08022013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08022013.au
+key SpaceCoastRadioNEWS08022013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08022013.au
+key SpaceCoastRadioNEWS08022013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08032013.aul.mat
+filename SpaceCoastRadioNEWS08032013.au
+key SpaceCoastRadioNEWS08032013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08032013.au
+key SpaceCoastRadioNEWS08032013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08032013.au
+key SpaceCoastRadioNEWS08032013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08032013.au
+key SpaceCoastRadioNEWS08032013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08032013.au
+key SpaceCoastRadioNEWS08032013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08032013.au
+key SpaceCoastRadioNEWS08032013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08032013.au
+key SpaceCoastRadioNEWS08032013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08042013.aul.mat
+filename SpaceCoastRadioNEWS08042013.au
+key SpaceCoastRadioNEWS08042013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08042013.au
+key SpaceCoastRadioNEWS08042013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08042013.au
+key SpaceCoastRadioNEWS08042013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08042013.au
+key SpaceCoastRadioNEWS08042013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08042013.au
+key SpaceCoastRadioNEWS08042013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08042013.au
+key SpaceCoastRadioNEWS08042013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08062013.aul.mat
+filename SpaceCoastRadioNEWS08062013.au
+key SpaceCoastRadioNEWS08062013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08062013.au
+key SpaceCoastRadioNEWS08062013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08062013.au
+key SpaceCoastRadioNEWS08062013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08062013.au
+key SpaceCoastRadioNEWS08062013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08062013.au
+key SpaceCoastRadioNEWS08062013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08062013.au
+key SpaceCoastRadioNEWS08062013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08062013.au
+key SpaceCoastRadioNEWS08062013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08062013.au
+key SpaceCoastRadioNEWS08062013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08072013.aul.mat
+filename SpaceCoastRadioNEWS08072013.au
+key SpaceCoastRadioNEWS08072013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08072013.au
+key SpaceCoastRadioNEWS08072013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08072013.au
+key SpaceCoastRadioNEWS08072013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08072013.au
+key SpaceCoastRadioNEWS08072013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08072013.au
+key SpaceCoastRadioNEWS08072013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08072013.au
+key SpaceCoastRadioNEWS08072013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08082013.aul.mat
+filename SpaceCoastRadioNEWS08082013.au
+key SpaceCoastRadioNEWS08082013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08082013.au
+key SpaceCoastRadioNEWS08082013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08082013.au
+key SpaceCoastRadioNEWS08082013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08082013.au
+key SpaceCoastRadioNEWS08082013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08082013.au
+key SpaceCoastRadioNEWS08082013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08082013.au
+key SpaceCoastRadioNEWS08082013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08082013.au
+key SpaceCoastRadioNEWS08082013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08092013.aul.mat
+filename SpaceCoastRadioNEWS08092013.au
+key SpaceCoastRadioNEWS08092013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08092013.au
+key SpaceCoastRadioNEWS08092013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08092013.au
+key SpaceCoastRadioNEWS08092013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08092013.au
+key SpaceCoastRadioNEWS08092013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08092013.au
+key SpaceCoastRadioNEWS08092013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08092013.au
+key SpaceCoastRadioNEWS08092013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08092013.au
+key SpaceCoastRadioNEWS08092013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08102013.aul.mat
+filename SpaceCoastRadioNEWS08102013.au
+key SpaceCoastRadioNEWS08102013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08102013.au
+key SpaceCoastRadioNEWS08102013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08102013.au
+key SpaceCoastRadioNEWS08102013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08102013.au
+key SpaceCoastRadioNEWS08102013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08102013.au
+key SpaceCoastRadioNEWS08102013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08102013.au
+key SpaceCoastRadioNEWS08102013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08112013.aul.mat
+filename SpaceCoastRadioNEWS08112013.au
+key SpaceCoastRadioNEWS08112013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08112013.au
+key SpaceCoastRadioNEWS08112013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08112013.au
+key SpaceCoastRadioNEWS08112013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08112013.au
+key SpaceCoastRadioNEWS08112013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08112013.au
+key SpaceCoastRadioNEWS08112013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08112013.au
+key SpaceCoastRadioNEWS08112013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08112013.au
+key SpaceCoastRadioNEWS08112013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08122013.aul.mat
+filename SpaceCoastRadioNEWS08122013.au
+key SpaceCoastRadioNEWS08122013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08122013.au
+key SpaceCoastRadioNEWS08122013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08122013.au
+key SpaceCoastRadioNEWS08122013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08122013.au
+key SpaceCoastRadioNEWS08122013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08122013.au
+key SpaceCoastRadioNEWS08122013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08122013.au
+key SpaceCoastRadioNEWS08122013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08122013.au
+key SpaceCoastRadioNEWS08122013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08132013.aul.mat
+filename SpaceCoastRadioNEWS08132013.au
+key SpaceCoastRadioNEWS08132013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08132013.au
+key SpaceCoastRadioNEWS08132013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08132013.au
+key SpaceCoastRadioNEWS08132013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08132013.au
+key SpaceCoastRadioNEWS08132013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08132013.au
+key SpaceCoastRadioNEWS08132013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08132013.au
+key SpaceCoastRadioNEWS08132013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08132013.au
+key SpaceCoastRadioNEWS08132013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08142013.aul.mat
+filename SpaceCoastRadioNEWS08142013.au
+key SpaceCoastRadioNEWS08142013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08142013.au
+key SpaceCoastRadioNEWS08142013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08142013.au
+key SpaceCoastRadioNEWS08142013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08142013.au
+key SpaceCoastRadioNEWS08142013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08142013.au
+key SpaceCoastRadioNEWS08142013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08142013.au
+key SpaceCoastRadioNEWS08142013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08152013.aul.mat
+filename SpaceCoastRadioNEWS08152013.au
+key SpaceCoastRadioNEWS08152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08152013.au
+key SpaceCoastRadioNEWS08152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08152013.au
+key SpaceCoastRadioNEWS08152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08152013.au
+key SpaceCoastRadioNEWS08152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08152013.au
+key SpaceCoastRadioNEWS08152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08152013.au
+key SpaceCoastRadioNEWS08152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08152013.au
+key SpaceCoastRadioNEWS08152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08152013.au
+key SpaceCoastRadioNEWS08152013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08162013.aul.mat
+filename SpaceCoastRadioNEWS08162013.au
+key SpaceCoastRadioNEWS08162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08162013.au
+key SpaceCoastRadioNEWS08162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08162013.au
+key SpaceCoastRadioNEWS08162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08162013.au
+key SpaceCoastRadioNEWS08162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08162013.au
+key SpaceCoastRadioNEWS08162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08162013.au
+key SpaceCoastRadioNEWS08162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08162013.au
+key SpaceCoastRadioNEWS08162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08162013.au
+key SpaceCoastRadioNEWS08162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08162013.au
+key SpaceCoastRadioNEWS08162013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08182013.aul.mat
+filename SpaceCoastRadioNEWS08182013.au
+key SpaceCoastRadioNEWS08182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08182013.au
+key SpaceCoastRadioNEWS08182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08182013.au
+key SpaceCoastRadioNEWS08182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08182013.au
+key SpaceCoastRadioNEWS08182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08182013.au
+key SpaceCoastRadioNEWS08182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08182013.au
+key SpaceCoastRadioNEWS08182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08182013.au
+key SpaceCoastRadioNEWS08182013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08202013.aul.mat
+filename SpaceCoastRadioNEWS08202013.au
+key SpaceCoastRadioNEWS08202013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08202013.au
+key SpaceCoastRadioNEWS08202013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08202013.au
+key SpaceCoastRadioNEWS08202013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08202013.au
+key SpaceCoastRadioNEWS08202013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08202013.au
+key SpaceCoastRadioNEWS08202013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08202013.au
+key SpaceCoastRadioNEWS08202013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08212013.aul.mat
+filename SpaceCoastRadioNEWS08212013.au
+key SpaceCoastRadioNEWS08212013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08212013.au
+key SpaceCoastRadioNEWS08212013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08212013.au
+key SpaceCoastRadioNEWS08212013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08212013.au
+key SpaceCoastRadioNEWS08212013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08212013.au
+key SpaceCoastRadioNEWS08212013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08212013.au
+key SpaceCoastRadioNEWS08212013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNEWS08222013.aul.mat
+filename SpaceCoastRadioNEWS08222013.au
+key SpaceCoastRadioNEWS08222013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08222013.au
+key SpaceCoastRadioNEWS08222013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08222013.au
+key SpaceCoastRadioNEWS08222013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08222013.au
+key SpaceCoastRadioNEWS08222013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08222013.au
+key SpaceCoastRadioNEWS08222013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08222013.au
+key SpaceCoastRadioNEWS08222013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNEWS08222013.au
+key SpaceCoastRadioNEWS08222013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews08232013.aul.mat
+filename SpaceCoastRadioNews08232013.au
+key SpaceCoastRadioNews08232013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08232013.au
+key SpaceCoastRadioNews08232013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08232013.au
+key SpaceCoastRadioNews08232013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08232013.au
+key SpaceCoastRadioNews08232013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08232013.au
+key SpaceCoastRadioNews08232013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08232013.au
+key SpaceCoastRadioNews08232013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews08242013.aul.mat
+filename SpaceCoastRadioNews08242013.au
+key SpaceCoastRadioNews08242013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08242013.au
+key SpaceCoastRadioNews08242013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08242013.au
+key SpaceCoastRadioNews08242013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08242013.au
+key SpaceCoastRadioNews08242013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08242013.au
+key SpaceCoastRadioNews08242013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08242013.au
+key SpaceCoastRadioNews08242013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews08252013.aul.mat
+filename SpaceCoastRadioNews08252013.au
+key SpaceCoastRadioNews08252013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08252013.au
+key SpaceCoastRadioNews08252013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08252013.au
+key SpaceCoastRadioNews08252013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08252013.au
+key SpaceCoastRadioNews08252013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08252013.au
+key SpaceCoastRadioNews08252013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08252013.au
+key SpaceCoastRadioNews08252013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews08272013.aul.mat
+filename SpaceCoastRadioNews08272013.au
+key SpaceCoastRadioNews08272013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08272013.au
+key SpaceCoastRadioNews08272013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08272013.au
+key SpaceCoastRadioNews08272013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08272013.au
+key SpaceCoastRadioNews08272013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08272013.au
+key SpaceCoastRadioNews08272013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08272013.au
+key SpaceCoastRadioNews08272013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews08282013.aul.mat
+filename SpaceCoastRadioNews08282013.au
+key SpaceCoastRadioNews08282013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08282013.au
+key SpaceCoastRadioNews08282013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08282013.au
+key SpaceCoastRadioNews08282013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08282013.au
+key SpaceCoastRadioNews08282013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08282013.au
+key SpaceCoastRadioNews08282013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08282013.au
+key SpaceCoastRadioNews08282013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews08292013.aul.mat
+filename SpaceCoastRadioNews08292013.au
+key SpaceCoastRadioNews08292013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08292013.au
+key SpaceCoastRadioNews08292013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08292013.au
+key SpaceCoastRadioNews08292013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08292013.au
+key SpaceCoastRadioNews08292013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08292013.au
+key SpaceCoastRadioNews08292013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews08302013.aul.mat
+filename SpaceCoastRadioNews08302013.au
+key SpaceCoastRadioNews08302013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08302013.au
+key SpaceCoastRadioNews08302013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08302013.au
+key SpaceCoastRadioNews08302013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08302013.au
+key SpaceCoastRadioNews08302013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08302013.au
+key SpaceCoastRadioNews08302013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08302013.au
+key SpaceCoastRadioNews08302013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08302013.au
+key SpaceCoastRadioNews08302013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews08312013_20130831.aul.mat
+filename SpaceCoastRadioNews08312013_20130831.au
+key SpaceCoastRadioNews08312013_20130831.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08312013_20130831.au
+key SpaceCoastRadioNews08312013_20130831.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08312013_20130831.au
+key SpaceCoastRadioNews08312013_20130831.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08312013_20130831.au
+key SpaceCoastRadioNews08312013_20130831.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08312013_20130831.au
+key SpaceCoastRadioNews08312013_20130831.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08312013_20130831.au
+key SpaceCoastRadioNews08312013_20130831.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews08312013_20130831.au
+key SpaceCoastRadioNews08312013_20130831.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09012013.aul.mat
+filename SpaceCoastRadioNews09012013.au
+key SpaceCoastRadioNews09012013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09012013.au
+key SpaceCoastRadioNews09012013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09012013.au
+key SpaceCoastRadioNews09012013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09012013.au
+key SpaceCoastRadioNews09012013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09012013.au
+key SpaceCoastRadioNews09012013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09012013.au
+key SpaceCoastRadioNews09012013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09012013.au
+key SpaceCoastRadioNews09012013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09022013.aul.mat
+filename SpaceCoastRadioNews09022013.au
+key SpaceCoastRadioNews09022013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09022013.au
+key SpaceCoastRadioNews09022013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09022013.au
+key SpaceCoastRadioNews09022013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09022013.au
+key SpaceCoastRadioNews09022013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09022013.au
+key SpaceCoastRadioNews09022013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09022013.au
+key SpaceCoastRadioNews09022013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09022013.au
+key SpaceCoastRadioNews09022013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09032013.aul.mat
+filename SpaceCoastRadioNews09032013.au
+key SpaceCoastRadioNews09032013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09032013.au
+key SpaceCoastRadioNews09032013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09032013.au
+key SpaceCoastRadioNews09032013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09032013.au
+key SpaceCoastRadioNews09032013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09032013.au
+key SpaceCoastRadioNews09032013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09052013.aul.mat
+filename SpaceCoastRadioNews09052013.au
+key SpaceCoastRadioNews09052013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09052013.au
+key SpaceCoastRadioNews09052013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09052013.au
+key SpaceCoastRadioNews09052013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09052013.au
+key SpaceCoastRadioNews09052013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09052013.au
+key SpaceCoastRadioNews09052013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09052013.au
+key SpaceCoastRadioNews09052013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09062013.aul.mat
+filename SpaceCoastRadioNews09062013.au
+key SpaceCoastRadioNews09062013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09062013.au
+key SpaceCoastRadioNews09062013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09062013.au
+key SpaceCoastRadioNews09062013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09062013.au
+key SpaceCoastRadioNews09062013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09062013.au
+key SpaceCoastRadioNews09062013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09062013.au
+key SpaceCoastRadioNews09062013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09072013.aul.mat
+filename SpaceCoastRadioNews09072013.au
+key SpaceCoastRadioNews09072013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09072013.au
+key SpaceCoastRadioNews09072013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09072013.au
+key SpaceCoastRadioNews09072013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09072013.au
+key SpaceCoastRadioNews09072013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09072013.au
+key SpaceCoastRadioNews09072013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09072013.au
+key SpaceCoastRadioNews09072013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09072013.au
+key SpaceCoastRadioNews09072013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09082013.aul.mat
+filename SpaceCoastRadioNews09082013.au
+key SpaceCoastRadioNews09082013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09082013.au
+key SpaceCoastRadioNews09082013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09082013.au
+key SpaceCoastRadioNews09082013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09082013.au
+key SpaceCoastRadioNews09082013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09082013.au
+key SpaceCoastRadioNews09082013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09082013.au
+key SpaceCoastRadioNews09082013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09092013.aul.mat
+filename SpaceCoastRadioNews09092013.au
+key SpaceCoastRadioNews09092013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09092013.au
+key SpaceCoastRadioNews09092013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09092013.au
+key SpaceCoastRadioNews09092013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09092013.au
+key SpaceCoastRadioNews09092013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09092013.au
+key SpaceCoastRadioNews09092013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09092013.au
+key SpaceCoastRadioNews09092013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09092013.au
+key SpaceCoastRadioNews09092013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09102013.aul.mat
+filename SpaceCoastRadioNews09102013.au
+key SpaceCoastRadioNews09102013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09102013.au
+key SpaceCoastRadioNews09102013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09102013.au
+key SpaceCoastRadioNews09102013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09102013.au
+key SpaceCoastRadioNews09102013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09102013.au
+key SpaceCoastRadioNews09102013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09102013.au
+key SpaceCoastRadioNews09102013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09112013.aul.mat
+filename SpaceCoastRadioNews09112013.au
+key SpaceCoastRadioNews09112013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09112013.au
+key SpaceCoastRadioNews09112013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09112013.au
+key SpaceCoastRadioNews09112013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09112013.au
+key SpaceCoastRadioNews09112013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09112013.au
+key SpaceCoastRadioNews09112013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09122013.aul.mat
+filename SpaceCoastRadioNews09122013.au
+key SpaceCoastRadioNews09122013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09122013.au
+key SpaceCoastRadioNews09122013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09122013.au
+key SpaceCoastRadioNews09122013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09122013.au
+key SpaceCoastRadioNews09122013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09122013.au
+key SpaceCoastRadioNews09122013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09122013.au
+key SpaceCoastRadioNews09122013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09132013.aul.mat
+filename SpaceCoastRadioNews09132013.au
+key SpaceCoastRadioNews09132013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09132013.au
+key SpaceCoastRadioNews09132013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09132013.au
+key SpaceCoastRadioNews09132013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09132013.au
+key SpaceCoastRadioNews09132013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09132013.au
+key SpaceCoastRadioNews09132013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09132013.au
+key SpaceCoastRadioNews09132013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09132013.au
+key SpaceCoastRadioNews09132013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09142013.aul.mat
+filename SpaceCoastRadioNews09142013.au
+key SpaceCoastRadioNews09142013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09142013.au
+key SpaceCoastRadioNews09142013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09142013.au
+key SpaceCoastRadioNews09142013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09142013.au
+key SpaceCoastRadioNews09142013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09142013.au
+key SpaceCoastRadioNews09142013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09142013.au
+key SpaceCoastRadioNews09142013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09142013.au
+key SpaceCoastRadioNews09142013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09152013.aul.mat
+filename SpaceCoastRadioNews09152013.au
+key SpaceCoastRadioNews09152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09152013.au
+key SpaceCoastRadioNews09152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09152013.au
+key SpaceCoastRadioNews09152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09152013.au
+key SpaceCoastRadioNews09152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09152013.au
+key SpaceCoastRadioNews09152013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09152013.au
+key SpaceCoastRadioNews09152013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09162013.aul.mat
+filename SpaceCoastRadioNews09162013.au
+key SpaceCoastRadioNews09162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09162013.au
+key SpaceCoastRadioNews09162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09162013.au
+key SpaceCoastRadioNews09162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09162013.au
+key SpaceCoastRadioNews09162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09162013.au
+key SpaceCoastRadioNews09162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09162013.au
+key SpaceCoastRadioNews09162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09162013.au
+key SpaceCoastRadioNews09162013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09162013.au
+key SpaceCoastRadioNews09162013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09172013.aul.mat
+filename SpaceCoastRadioNews09172013.au
+key SpaceCoastRadioNews09172013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09172013.au
+key SpaceCoastRadioNews09172013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09172013.au
+key SpaceCoastRadioNews09172013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09172013.au
+key SpaceCoastRadioNews09172013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09172013.au
+key SpaceCoastRadioNews09172013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09172013.au
+key SpaceCoastRadioNews09172013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09182013.aul.mat
+filename SpaceCoastRadioNews09182013.au
+key SpaceCoastRadioNews09182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09182013.au
+key SpaceCoastRadioNews09182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09182013.au
+key SpaceCoastRadioNews09182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09182013.au
+key SpaceCoastRadioNews09182013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09182013.au
+key SpaceCoastRadioNews09182013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09192013.aul.mat
+filename SpaceCoastRadioNews09192013.au
+key SpaceCoastRadioNews09192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09192013.au
+key SpaceCoastRadioNews09192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09192013.au
+key SpaceCoastRadioNews09192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09192013.au
+key SpaceCoastRadioNews09192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09192013.au
+key SpaceCoastRadioNews09192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09192013.au
+key SpaceCoastRadioNews09192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09192013.au
+key SpaceCoastRadioNews09192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09192013.au
+key SpaceCoastRadioNews09192013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09192013.au
+key SpaceCoastRadioNews09192013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSpaceCoastRadioNews09202013.aul.mat
+filename SpaceCoastRadioNews09202013.au
+key SpaceCoastRadioNews09202013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09202013.au
+key SpaceCoastRadioNews09202013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09202013.au
+key SpaceCoastRadioNews09202013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09202013.au
+key SpaceCoastRadioNews09202013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09202013.au
+key SpaceCoastRadioNews09202013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09202013.au
+key SpaceCoastRadioNews09202013.au
+filename same as key name as saved file
+filename SpaceCoastRadioNews09202013.au
+key SpaceCoastRadioNews09202013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSundayMorningNewsFebruary102013.aul.mat
+filename SundayMorningNewsFebruary102013.au
+key SundayMorningNewsFebruary102013.au
+filename same as key name as saved file
+filename SundayMorningNewsFebruary102013.au
+key SundayMorningNewsFebruary102013.au
+filename same as key name as saved file
+filename SundayMorningNewsFebruary102013.au
+key SundayMorningNewsFebruary102013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSundayMorningNewsOctober212012.aul.mat
+filename SundayMorningNewsOctober212012.au
+key SundayMorningNewsOctober212012.au
+filename same as key name as saved file
+filename SundayMorningNewsOctober212012.au
+key SundayMorningNewsOctober212012.au
+filename same as key name as saved file
+filename SundayMorningNewsOctober212012.au
+key SundayMorningNewsOctober212012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSundayMorningNewsSeptember162012.aul.mat
+filename SundayMorningNewsSeptember162012.au
+key SundayMorningNewsSeptember162012.au
+filename same as key name as saved file
+filename SundayMorningNewsSeptember162012.au
+key SundayMorningNewsSeptember162012.au
+filename same as key name as saved file
+filename SundayMorningNewsSeptember162012.au
+key SundayMorningNewsSeptember162012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSundayMorningNewsSeptember232012.aul.mat
+filename SundayMorningNewsSeptember232012.au
+key SundayMorningNewsSeptember232012.au
+filename same as key name as saved file
+filename SundayMorningNewsSeptember232012.au
+key SundayMorningNewsSeptember232012.au
+filename same as key name as saved file
+filename SundayMorningNewsSeptember232012.au
+key SundayMorningNewsSeptember232012.au
+filename same as key name as saved file
+filename SundayMorningNewsSeptember232012.au
+key SundayMorningNewsSeptember232012.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSwineFluEpidemicHelpLineRecordings.aul.mat
+filename SwineFluEpidemicHelpLineRecordings.au
+key SwineFluEpidemicHelpLineRecordings.au
+filename same as key name as saved file
+filename SwineFluEpidemicHelpLineRecordings.au
+key SwineFluEpidemicHelpLineRecordings.au
+filename same as key name as saved file
+filename SwineFluEpidemicHelpLineRecordings.au
+key SwineFluEpidemicHelpLineRecordings.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'SwineFluEpidemicHelpLineRecordings' 8399 13900
+filename SwineFluEpidemicHelpLineRecordings.au
+key SwineFluEpidemicHelpLineRecordings.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'SwineFluEpidemicHelpLineRecordings' 13899 18300
+filename SwineFluEpidemicHelpLineRecordings.au
+key SwineFluEpidemicHelpLineRecordings.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'SwineFluEpidemicHelpLineRecordings' 18299 20900
+filename SwineFluEpidemicHelpLineRecordings.au
+key SwineFluEpidemicHelpLineRecordings.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'SwineFluEpidemicHelpLineRecordings' 20899 23700
+filename SwineFluEpidemicHelpLineRecordings.au
+key SwineFluEpidemicHelpLineRecordings.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'SwineFluEpidemicHelpLineRecordings' 23699 25600
+filename SwineFluEpidemicHelpLineRecordings.au
+key SwineFluEpidemicHelpLineRecordings.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'SwineFluEpidemicHelpLineRecordings' 25599 27400
+filename SwineFluEpidemicHelpLineRecordings.au
+key SwineFluEpidemicHelpLineRecordings.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'SwineFluEpidemicHelpLineRecordings' 27399 32900
+filename SwineFluEpidemicHelpLineRecordings.au
+key SwineFluEpidemicHelpLineRecordings.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'SwineFluEpidemicHelpLineRecordings' 32899 33700
+filename SwineFluEpidemicHelpLineRecordings.au
+key SwineFluEpidemicHelpLineRecordings.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'SwineFluEpidemicHelpLineRecordings' 33699 42200
+filename SwineFluEpidemicHelpLineRecordings.au
+key SwineFluEpidemicHelpLineRecordings.au
+filename same as key name as saved file
+!!warning too short for %s: frames %f to %f!?
+ b'SwineFluEpidemicHelpLineRecordings' 42199 47900
+filename SwineFluEpidemicHelpLineRecordings.au
+key SwineFluEpidemicHelpLineRecordings.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSwineFluInIreland.aul.mat
+filename SwineFluInIreland.au
+key SwineFluInIreland.au
+filename same as key name as saved file
+!!warning very long for %s: frames %f to %f!?
+ b'SwineFluInIreland' 3999 0
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSwineFluParanoia.aul.mat
+filename SwineFluParanoia.au
+key SwineFluParanoia.au
+filename same as key name as saved file
+filename SwineFluParanoia.au
+key SwineFluParanoia.au
+filename same as key name as saved file
+filename SwineFluParanoia.au
+key SwineFluParanoia.au
+filename same as key name as saved file
+filename SwineFluParanoia.au
+key SwineFluParanoia.au
+filename same as key name as saved file
+filename SwineFluParanoia.au
+key SwineFluParanoia.au
+filename same as key name as saved file
+filename SwineFluParanoia.au
+key SwineFluParanoia.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonSwineFluPitch.aul.mat
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonTCIH8292013.aul.mat
+filename TCIH8292013.au
+key TCIH8292013.au
+filename same as key name as saved file
+filename TCIH8292013.au
+key TCIH8292013.au
+filename same as key name as saved file
+filename TCIH8292013.au
+key TCIH8292013.au
+filename same as key name as saved file
+filename TCIH8292013.au
+key TCIH8292013.au
+filename same as key name as saved file
+filename TCIH8292013.au
+key TCIH8292013.au
+filename same as key name as saved file
+filename TCIH8292013.au
+key TCIH8292013.au
+filename same as key name as saved file
+filename TCIH8292013.au
+key TCIH8292013.au
+filename same as key name as saved file
+filename TCIH8292013.au
+key TCIH8292013.au
+filename same as key name as saved file
+filename TCIH8292013.au
+key TCIH8292013.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythontth_120517.aul.mat
+filename tth_120517.au
+key tth_120517.au
+filename same as key name as saved file
+filename tth_120517.au
+key tth_120517.au
+filename same as key name as saved file
+filename tth_120517.au
+key tth_120517.au
+filename same as key name as saved file
+filename tth_120517.au
+key tth_120517.au
+filename same as key name as saved file
+filename tth_120517.au
+key tth_120517.au
+filename same as key name as saved file
+filename tth_120517.au
+key tth_120517.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonUrgentCallHelpLorenzoKomboaErvinInTennesseeAsMissippiFloodWaters.aul.mat
+filename UrgentCallHelpLorenzoKomboaErvinInTennesseeAsMissippiFloodWaters.au
+key UrgentCallHelpLorenzoKomboaErvinInTennesseeAsMissippiFloodWaters.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonVolunteerEmergencyResponders.aul.mat
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonWisconsinTibetanRadioDec8-BreakingNewsfromTibet.aul.mat
+filename WisconsinTibetanRadioDec8-BreakingNewsfromTibet.au
+key WisconsinTibetanRadioDec8-BreakingNewsfromTibet.au
+filename same as key name as saved file
+filename WisconsinTibetanRadioDec8-BreakingNewsfromTibet.au
+key WisconsinTibetanRadioDec8-BreakingNewsfromTibet.au
+filename same as key name as saved file
+filename WisconsinTibetanRadioDec8-BreakingNewsfromTibet.au
+key WisconsinTibetanRadioDec8-BreakingNewsfromTibet.au
+filename same as key name as saved file
+filename WisconsinTibetanRadioDec8-BreakingNewsfromTibet.au
+key WisconsinTibetanRadioDec8-BreakingNewsfromTibet.au
+filename same as key name as saved file
+monster called when dict not empty
+reading cached pitch file ../../EnglishDataset/Audio/converted/pitchCachePython/pitchpythonWtdyReporterBarredFromRomneyEvent_846.aul.mat
+filename WtdyReporterBarredFromRomneyEvent_846.au
+key WtdyReporterBarredFromRomneyEvent_846.au
+filename same as key name as saved file
+filename WtdyReporterBarredFromRomneyEvent_846.au
+key WtdyReporterBarredFromRomneyEvent_846.au
+filename same as key name as saved file
+saving in .mat
+Time taken to create the model :1165.1994876861572  secs

@@ -1,6 +1,7 @@
 import numpy as np
 import numpy.matlib
 from sklearn.neighbors import NearestNeighbors
+
 #Translated on Python by Alonso Granados 11/22/2017
 def patchwiseKNN(segmentData, modelPatchesProsody, modelPatchesProps, k):
     #see ../doc/UTEP-prosody-overview.docx and Inferring Stance from Prosody
@@ -30,7 +31,12 @@ def patchwiseKNN(segmentData, modelPatchesProsody, modelPatchesProps, k):
     votePerPatch = np.zeros((npatches, nproperties))
 
     #Knn Search
-    neigh = NearestNeighbors(n_neighbors=k)
+    # default algo is 'auto' which automatically uses for the \
+    #best algorithm appropiate to the size of the training data,dimensions,etc.
+    # here, it chooses 'balltree' which takes longer time
+    # 'brute' is faster contary to the pouplar belief since
+    # comparing distances from the centroid in balltree may choose every neighbors in 'leave-one-out' set
+    neigh = NearestNeighbors(n_neighbors=k,algorithm='brute') 
     neigh.fit(modelPatchesProsody)
     distances, patchNeighbors = neigh.kneighbors(segmentData)
 
@@ -64,5 +70,6 @@ def patchwiseKNN(segmentData, modelPatchesProsody, modelPatchesProps, k):
     #print(votePerPatch.shape)
     #print(patchNeighbors.shape)
     return propPredictions, votePerPatch, patchNeighbors
+
 # Test case
 #print(patchwiseKNN([[4.1,4],[5.1,4]], [[1,1], [2,2.1],[3,3], [4,4], [5,5]], [[0],[0],[0],[1],[1]],2))

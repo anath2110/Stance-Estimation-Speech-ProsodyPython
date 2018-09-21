@@ -19,8 +19,12 @@ def readtracks(filename):
 
      [filepath, basename]= os.path.split(filename)
      [audioname,audioext]=os.path.splitext(basename)
-     if audioext==".au":    
-         [rate,signals,channels] = readau.readau(filename)
+     if audioext==".au":  
+        #print('in readtracks')
+        #print(filename)
+        [rate,signals,channels] = readau.readau(filename)
+        #print('channels in readtracks')
+        #print(channels)
      elif audioext==".wav": 
           [rate,signals,channels] = readwav.readwav(filename)    
      else:

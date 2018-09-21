@@ -16,6 +16,6 @@ def makeTrackspec(sideval, filenameval, directoryval):
   return ts
   
 ###Test###
-ts=makeTrackspec("l", "aaaa.au", "sddffsdf/")
+#ts=makeTrackspec("l", "aaaa.au", "sddffsdf/")
 #print(ts)
 #savemat('c:/tmp/arrdata.mat', mdict={'arr': arr})

@@ -19,25 +19,35 @@ def prepForKnn(segData,exclude,showStats):
     # similar to Jason's buildRegTrainingData
     # converted from original by Nigel Ward and Ivan Gris, UTEP, June 2017
     # see ../doc/UTEP-prosody-overview.docx
-
+  
+       
+    
+  
   featuresForAllPatches = concatenateFeatures(segData, exclude)
   nPatchesSoFar = 0
   propsForAllPatches = np.zeros((1,len(segData[0].properties)))
+ 
+ 
   for i in range (len(segData)):
     if i==exclude:
       #print('prepexclde')
       continue
+    #if (len(nullindex)==0 and i in nullindex):
+        #print("prepforKnn")
+        #print(i)
+        #continue
     segment = segData[i]
-    pfeatures = segment.features
-    nPatchesInSegment = np.shape(pfeatures)[0]  
-    #print(segment.properties.shape)
-    repeatedProperties = np.matlib.repmat(segment.properties, nPatchesInSegment, 1)
-    #print(repeatedProperties.shape)
-    propsForAllPatches = np.vstack((propsForAllPatches,repeatedProperties))
-    nPatchesSoFar = nPatchesSoFar + nPatchesInSegment
+    pfeatures = segment.features  
+    if(pfeatures.size!=0):
+        nPatchesInSegment = np.shape(pfeatures)[0]  
+        #print(segment.features.shape)
+        repeatedProperties = np.matlib.repmat(segment.properties, nPatchesInSegment, 1)
+        #print(repeatedProperties.shape)
+        propsForAllPatches = np.vstack((propsForAllPatches,repeatedProperties))
+        nPatchesSoFar = nPatchesSoFar + nPatchesInSegment
   if showStats:
-    print(' prepForKnn: %d segments, %d patches, %.1f seconds, %.1f minutes\n',\
-	    len(segData), nPatchesSoFar, int(nPatchesSoFar / 10), int(nPatchesSoFar / 600))
+    print("prepForKnn: %d segments, %d patches, %.1f seconds, %.1f minutes\n" %\
+	    (len(segData), nPatchesSoFar, int(nPatchesSoFar / 10), int(nPatchesSoFar / 600)))
   propsForAllPatches=np.delete(propsForAllPatches,0,axis=0)
   return featuresForAllPatches, propsForAllPatches
 

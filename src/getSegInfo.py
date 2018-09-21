@@ -1,10 +1,12 @@
 import os.path
+import numpy as np
 from readStanceAnnotations import readStanceAnnotations 
-def getSegInfo(audioDir, annotDir):
-    [a0, a1, starts, ends, aufiles, a5] = readStanceAnnotations(annotDir)
+def getSegInfo(audioDir, annotDir,lang):
+    [a0, a1, starts, ends, aufiles, a5] = readStanceAnnotations(annotDir,lang)
     if not isUtepFormat(audioDir):
         for i in range(0,len(aufiles)):
             aufiles[i] = "concat" + aufiles[i]
+            #print(aufiles[i])
     return starts, ends, aufiles
 
 def isUtepFormat(audioDir):
@@ -19,8 +21,6 @@ def isUtepFormat(audioDir):
             continue
         result = False
     return result
-
-
 
 def extractIndexes(str1, str2):
     i = 0
@@ -39,5 +39,7 @@ def extractIndexes(str1, str2):
 # str2 = "in"
 # a = extractIndexes(str1,str2)
 # print(a)
-#starts, ends, aufiles=getSegInfo('stance-master/testeng/audio/','stance-master/testeng/annotations/' )
-#print(starts)
+#starts, ends, aufiles=getSegInfo('../../mandarin/audio/','../../mandarin/trainAnnotationsCSV/' )
+#print(starts.shape)
+#np.set_printoptions(threshold=np.inf)
+#print(aufiles)

@@ -1,32 +1,28 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thur Dec 14 13:30:49 2017
+Created on Mon Jan 29 17:03:00 2017
 
-@author: modified from Alonso's by Anindita Nath
-University of Texas at ElPaso"""
+@author: Anindita Nath
+University of Texas at ElPaso
+"""
 
 
 import numpy as np
-import goto
-import warnings
-import time
-import os
-from makeTrackSpecs import makeTrackspec
-import cProfile, pstats, io
-import math
-import sys
+#import collections
+#import pandas as pd
 import hdf5storage
-#import pickle
-import _pickle as pickle #cPickle package is so named in Python 3.x
-import scipy
+from makeTrackSpecs import makeTrackspec
+from getAudioInfo_noAnnoAPI import getAudioInfo
+#import numbers
+import math
+#import scipy
+import os
 from makeTrackMonster import makeTrackMonster
-from getSegInfo import getSegInfo
-from getfeaturespec import getfeaturespec
-import segDataObject as clssegobj
-warnings.filterwarnings("ignore")
-
-def prosodizeCorpus(audioDir, annotDir,featurespec, stride,lang,fssfile):
-    # converted from original by Nigel Ward, UTEP, June 2017
+#from getSegInfo import getSegInfo
+#from getfeaturespec import getfeaturespec
+import segDataObject_noAnnoAPI as clssegobj
+def prosodizeCorpus(audioDir,featurespec, stride,lang,fssfile,**kwargs):
+    # translated and modified from original by Nigel Ward, UTEP, June 2017
         # creates a nice data structure representing the prosodic information etc.
         # This data structure is the
         # inputs: audioDir, varies in format, UTEP or LDC
@@ -39,27 +35,27 @@ def prosodizeCorpus(audioDir, annotDir,featurespec, stride,lang,fssfile):
         # This function does not add props (annotation info);
         # since that is added later if needed.
         # Notice also that the output is not z-normalized; that's done later
-        # test with x = prosodizeCorpus('testAudio', 'testAnnotations', ...
-        # getfeaturespec('src/mono4.fss');
-        # and then examine x{1}, x{2}, etc.
-    starts, ends, aufiles = getSegInfo(audioDir, annotDir,lang)
-    np.set_printoptions(threshold=np.inf)# print the entire array
-   
+        
+    # for an audio with no annotations 
+    
+    starts, ends, aufiles = getAudioInfo(audioDir,**kwargs)
+    
+    
+    #print('in prosodize corpus')
     nsegments = len(starts)
-   
-    print('nsegments %d' %nsegments)
-    #print(aufiles)
+    #print('nsegments %d' %nsegments)
     segData=[]  
-   
+  
     for i in range(nsegments): 
-        #print('in prosodize corpus')
-        #print(i)
+        
         #print('in segment =%d' %i)
         #print('auname=%s' %aufiles[i])
-     
         segData.append(clssegobj.segDataObj(i,aufiles[i], starts[i], ends[i],featurespec, audioDir, stride,lang,nsegments,fssfile))     
+          
         
-       
+   
+        
+    #scipy.io.savemat('segdatapy.mat', {'segdatapy': segData})
     return segData
 
 # ----------------------------------------------------------------------------
@@ -82,12 +78,9 @@ def addTemporalFeatures(features, stride):
     return augmentedFeatures
 
 # ------------------------------------------------------------------
-
-def featuresForSegment(i,aufile, startTime, endTime, featurespec, audioDir, stride,lang,nsegments,fssfile):
- 
+def featuresForSegment(i,aufile, startTime, endTime, featurespec, audioDir, stride,lang,fssfile):
     # aufile = char(aufile)
- 
-    monster = findTrackMonster(i,aufile, audioDir, featurespec,lang,nsegments,fssfile)
+    monster = findTrackMonster(i,aufile, audioDir, featurespec,lang,fssfile)
     #print(monster.shape)
     framesPerSecond = 100 #what makeTrackMonster returns
     startFrame = max(0, int(math.floor(startTime * framesPerSecond)- 1))
@@ -120,10 +113,10 @@ def twiddleEndFrame(aufile, segStartFrame, segEndFrame, monsterEndFrame):
     return newEndFrame
 
     # ------------------------------------------------------------------
-    #lookup saved prosodic features in cache or compute them
+    #lookup saved prosodic features in cache or compute the
 
 def findTrackMonster(i,base, directory, featurespec,lang,nsegments,fssfile):
-    #print(i)
+   #print(i)
     global savedMonsters
     #global savedkeyindex
     
@@ -243,13 +236,6 @@ def findTrackMonster(i,base, directory, featurespec,lang,nsegments,fssfile):
     #          pickle.dump([savedMonsters],outfile, protocol=3)
    
     return monster
-
-# test 
-     
-#segData= prosodizeCorpus('../testeng/audio/', '../testeng/annotations/train/', getfeaturespec('../testeng/featurefile/mono4.fss'), 100,'E','mono4.fss')
-
-#segData= prosodizeCorpus('C:/ANINDITA/EnglishDataset/Audio/converted/', 'C:/ANINDITA/EnglishDataset/Annotations/TRAIN/1st3/', getfeaturespec('../testeng/featurefile/mono4.fss'), 100,'E')
-
 
 
 

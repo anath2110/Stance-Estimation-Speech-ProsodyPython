@@ -6,9 +6,9 @@ Created on Tue Oct 24 14:36:31 2017
 """
 from filesWithExtension import filesWithExtension
 import numpy as np
+from readStanceSpreadsheet_madarin import readStanceSpreadsheet
 
-
-def readStanceAnnotations(csvDirectory,lang):
+def readStanceAnnotations(csvDirectory):
 
   #reads all csv files in the current directory, extracts stance-annotation info
   #NSstanceVals: a row for each news segment (NS), a column per stance
@@ -18,23 +18,15 @@ def readStanceAnnotations(csvDirectory,lang):
   # converted from code by Nigel Ward, 2016-2017 Kyoto University and UTEP, with Jason Carlson
   
   #=== first we read in all the segment info, from all annotators === 
-  
-  if(lang=='M'):
-      from readStanceSpreadsheet_mandarin import readStanceSpreadsheet
-  elif(lang=='T'):
-      from readStanceSpreadsheet_Turkish import readStanceSpreadsheet
-  else:      
-      from readStanceSpreadsheet import readStanceSpreadsheet
-  
   np.set_printoptions(threshold=np.inf)
   csvfiles = filesWithExtension(csvDirectory, ".csv")  
   #print(len(csvfiles))
  
   segmentsSoFar = 0 
   tagssofar=0  
-  #comtagssofar=0 
+  comtagssofar=0 
   stanceNames = []
-  #aufilelist=[]
+  aufilelist=[]
   
   for filei in range(len(csvfiles)) : 
     filename = csvfiles[filei]
@@ -44,16 +36,33 @@ def readStanceAnnotations(csvDirectory,lang):
 
     [vals, tags, starts, aufile, stNames] = readStanceSpreadsheet(path)   
     #print(vals.shape)
-    #print(len(tags))
     #print(aufile)
+    #print(tags)
     
     # getting shape of numpy arrays for all segments all audios
     for tag in range (0,len(tags)):
       tagIx = tagssofar + tag
     tagssofar = tagssofar + len(tags)
     shapemax=tagIx+1 
-    #print(shapemax)
-  
+    
+    # getting shape of numpy array for combined segs for each audio
+    aufilelist.append(aufile)
+    if(filei==0):
+        taglen1staudio=len(tags)
+        #print(len(tags))
+        
+    else:
+        if (aufilelist[filei-1]!=aufile):
+            #if(len(tags)==1):
+                
+                #print(len(tags))
+            for comtag in range (0,len(tags)):
+                comtagIx = comtagssofar + comtag
+            comtagssofar =comtagssofar + len(tags)
+            taglenotheraudio=comtagIx+1 
+            combinedshapemax=taglen1staudio+taglenotheraudio
+  #print(shapemax)
+  #print(combinedshapemax)
   for filei in range(len(csvfiles)) : 
     filename = csvfiles[filei]
     #print("processing  : ", filei,filename )
@@ -61,13 +70,9 @@ def readStanceAnnotations(csvDirectory,lang):
     path = csvDirectory + filename
 
     [vals, tags, starts, aufile, stNames] = readStanceSpreadsheet(path)
-    #print(starts.shape)
-    #print(aufile)
+    #print(vals.shape)
     nsegsInThisBroadcast = len(tags)
-    #print('stanceannotations')
-    #print('nsegsInThisBroadcast')
-    #print(nsegsInThisBroadcast)    
-    
+    #print(len(tags))    
     
     
     if (filei==0):
@@ -78,14 +83,15 @@ def readStanceAnnotations(csvDirectory,lang):
         NSendTimes = np.zeros(shape=(shapemax,))
        
     for seg in range (0,nsegsInThisBroadcast):
-      
+      #print(seg)
       segIx = segmentsSoFar + seg
       #print(NSstanceVals.shape)
       #print(segIx)
-      NSstanceVals[segIx,:] =vals[:,seg]      
+      NSstanceVals[segIx,:] =vals[:,seg] 
+      #print(tags[seg])
       NStags[segIx] = tags[seg]
       NSaudioFiles[segIx] = aufile
-      #print(NSaudioFiles[segIx])
+      #print(aufile)
       #print(NSstartTimes.shape)           
       NSstartTimes[segIx] = starts[seg]
       
@@ -105,66 +111,49 @@ def readStanceAnnotations(csvDirectory,lang):
   # === second, we merge multiple annotators' views of the same segments ===
   
   nsegments = len(NSstartTimes)
-  #print('mergedsegments')
   #print(nsegments)
   alreadyHandled =np.zeros(nsegments,)
 
-  
-  combinedVals = np.zeros(shape=(nsegments,14))
-  combinedTags = np.empty(shape=(nsegments,),dtype='S256')
-  combinedAuNames = np.empty(shape=(nsegments,),dtype='S256')
-  combinedEnds=np.zeros(shape=(nsegments,))
-  combinedStarts = np.zeros(shape=(nsegments,))
-  
+  combinedVals = np.zeros(shape=(combinedshapemax,14))
+  combinedTags = np.empty(shape=(combinedshapemax,),dtype='S256')
+  combinedAuNames = np.empty(shape=(combinedshapemax,),dtype='S256')
+  combinedEnds=np.zeros(shape=(combinedshapemax,))
+  combinedStarts = np.zeros(shape=(combinedshapemax,))
   nUniqueSegments = 0
- 
+
   for seg in range (nsegments):
-    #print(seg)
     if (alreadyHandled[seg]==True):
       continue
    
     nUniqueSegments = nUniqueSegments + 1
-    #print('uniquesegments')
     #print(nUniqueSegments)
     nAnnotationsForThisSegment = 1
     sumOfAnnotations = NSstanceVals[seg,:]
     for possibleMatch in range(seg+1,nsegments):
       if (NSstartTimes[seg] == NSstartTimes[possibleMatch] and \
 	  (NSaudioFiles[seg]== NSaudioFiles[possibleMatch]) ):
-          #print('found match for %d at %d, size(NSstanceVals) is %d,%d\n'%\
-	      #(seg, possibleMatch, NSstanceVals.shape))
+   #print('found match for %d at %d, size(NSstanceVals) is %d,%d\n', ...
+	#seg, possibleMatch, size(NSstanceVals));
           alreadyHandled[possibleMatch] = True
           nAnnotationsForThisSegment = nAnnotationsForThisSegment + 1
           sumOfAnnotations = sumOfAnnotations + NSstanceVals[possibleMatch,:]
       else:
 	#no match, so we just skip it
           pass
-    #print(nUniqueSegments)
     combinedVals[nUniqueSegments-1,:] = sumOfAnnotations / nAnnotationsForThisSegment
     combinedStarts[nUniqueSegments-1] = NSstartTimes[seg]
     combinedEnds[nUniqueSegments-1] = NSendTimes[seg]
     combinedTags[nUniqueSegments-1]= NStags[seg]
     combinedAuNames[nUniqueSegments-1] = NSaudioFiles[seg]
-  
-  #deleting the non-unique rows from combined matrices
-  # np.s is the python's numpy slice format, cut a slice from an array within the range of indices
-  #print(nUniqueSegments) 
-  combinedVals = np.delete(combinedVals,np.s_[nUniqueSegments:],axis=0)
-  combinedStarts = np.delete(combinedStarts,np.s_[nUniqueSegments:],axis=0)
-  combinedEnds = np.delete(combinedEnds,np.s_[nUniqueSegments:],axis=0)
-  combinedTags = np.delete(combinedTags,np.s_[nUniqueSegments:],axis=0)
-  combinedAuNames = np.delete(combinedAuNames,np.s_[nUniqueSegments:],axis=0)
- 
-  
+   
     
   return combinedVals, combinedTags, combinedStarts, combinedEnds,combinedAuNames, stanceNames
 
 #to test
 #cd ppm/testeng
-#[combinedVals, combinedTags, combinedStarts, combinedEnds,combinedAuNames, stanceNames] =readStanceAnnotations('../../Mandarin stance data/mandarin/trainAnnotationsCSV/')
-#[combinedVals, combinedTags, combinedStarts, combinedEnds,combinedAuNames, stanceNames] =readStanceAnnotations('../../EnglishDataset/Annotations/TRAIN/1st2/')
-
-#print(combinedVals)
+#[combinedVals, combinedTags, combinedStarts, combinedEnds,combinedAuNames, stanceNames] =readStanceAnnotations('../Mandarin stance data/mandarin/trainAnnotationsCSV/')
+#[combinedVals, combinedTags, combinedStarts, combinedEnds,combinedAuNames, stanceNames] =readStanceAnnotations('../EnglishDataset/Annotations/')
+#print(combinedVals.shape)
 #print(combinedTags.shape)
 #print(combinedStarts.shape)
 #print(combinedEnds.shape)

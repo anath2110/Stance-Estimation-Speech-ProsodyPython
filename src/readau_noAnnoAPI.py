@@ -24,7 +24,7 @@ def readau(audiofile):
     rate=f.getframerate()
     #f.getparams()
     nframes=f.getnframes()
-   
+    duration=np.float32(nframes/rate)
     audio_databyte = f.readframes(nframes)
     #print(type(audio_databyte))
     #print(len(audio_databyte))
@@ -62,7 +62,7 @@ def readau(audiofile):
     #scipy.io.savemat('audio_bytearray_swap.mat', {'audio_bytearray_swap': audio_bytearray_swap})
     #scipy.io.savemat('audio_bytearraybigendian_swap.mat', {'audio_bytearraybigendian_swap': audio_bytearraybigendian_swap})
    
-    return rate,audio_bytearraybigendian,channels
+    return rate,audio_bytearraybigendian,channels,duration
 
 
 ###Test###

@@ -16,7 +16,7 @@ from getfeaturespec import getfeaturespec
 from makeTrackSpecs import makeTrackspec
 from featurizegaze import featurizeGaze
 from featurizeKeystrokes import featurizeKeystrokes
-from readtracks import readtracks
+#from readtracks import readtracks
 from computeLogenergy import computeLogEnergy
 from lookOrComputePitch import lookupOrComputePitch
 from cepstralFlux import cepstralFlux
@@ -103,8 +103,11 @@ def makeTrackMonster(trackspec, featurelist):
     if (processAudio ==True):
       #------ First, compute frame-level features: left track then right track ------
       stereop = decideIfStereo(trackspec, featurelist)
-      [signalPair,channels,rate] = readtracks(trackspec.path)
+      #print('in monster')
+      #print(trackspec.path)
+      #[signalPair,channels,rate] = readtracks(trackspec.path)
       signal = austruct.SignalObj(trackspec.path)
+      rate=signal.fs
       if (signal.channels < 2 and stereop):
         print('%s is not a stereo file, though the feature list ', trackspec.path);
         print('and/or \n the channel in the trackspec suggested it was.  Exiting\n');
@@ -116,7 +119,7 @@ def makeTrackMonster(trackspec, featurelist):
       
       if (signal.channels==1):
           signall = signal.data
-          plraw, pCenters = lookupOrComputePitch(trackspec.directory,trackspec.filename, 'l')
+          plraw, pCenters = lookupOrComputePitch(trackspec.directory,trackspec.filename, 'l',signal)
           energyl = computeLogEnergy(signall, samplesPerFrame)
       #  print('pitch found at %d points\n', np.sum(plraw > 0)) #not-isNan count
       #  print('pitch undefined  at %d points\n', np.sum(isnan(plraw)))
@@ -127,7 +130,7 @@ def makeTrackMonster(trackspec, featurelist):
       if (stereop==True):
         signalr = signal.data[:,2]
         [prraw, pCenters] = lookupOrComputePitch(\
-             trackspec.directory, trackspec.filename, 'r')
+             trackspec.directory, trackspec.filename, 'r',signal)
         energyr = computeLogEnergy(signalr, samplesPerFrame)
         cepstralFluxr = cepstralFlux(signalr, rate, energyr)
         pitchl, pitchr= killBleeding(plraw, prraw, energyl, energyr)
@@ -257,7 +260,7 @@ def makeTrackMonster(trackspec, featurelist):
          # print('hp' + str(featurevec.shape))
       elif (feattype=='fp'):    # flat pitch range 
           featurevec  = computePitchRange(relevantPitch, duration,'f')
-         # print('fp' + str(featurevec.shape))
+          #print('fp' + str(featurevec.shape))
       elif (feattype=='np'):    #narrow pitch range 
           featurevec  = computePitchRange(relevantPitch, duration,'n')
          # print('np' + str(featurevec.shape))
@@ -399,11 +402,11 @@ def decideIfStereo(trackspec, featurelist):
       
   return stereop 
 
-#flist=getfeaturespec('stance-master/src/mono4.fss')
-#ts=makeTrackspec("l", "ChevLocalNewsJuly3.au", "stance-master/testeng/audio/")
+#flist=getfeaturespec('../testeng/featurefile/mono4.fss')
+#ts=makeTrackspec("l", "ChevLocalNewsJuly3.au", "../testeng/audio/")
 #fcframe,monster=makeTrackMonster(ts, flist)
 #np.set_printoptions(threshold=np.inf)
-#scipy.io.savemat('monsterpy_3.mat', {'monsterpy_3': monster})
+#scipy.io.savemat('monsterpy.mat', {'monsterpy': monster})
 #print(monster)
 #print(monster.shape)
 #for i in range( len(monster)):

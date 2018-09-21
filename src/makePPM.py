@@ -1,13 +1,16 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thur Dec 14 13:30:49 2017
-
 @author:modified from Alonso by Anindita Nath
 University of Texas at ElPaso
 """
 
-import warnings
+#import warnings
+
+#import pickle
+#import _pickle as pickle # cPickle version is so named in Python 3.x
 import time
+import os
 from prosodizeCorpus import prosodizeCorpus
 from normalizeCorpus import normalizeCorpus
 from getfeaturespec import getfeaturespec
@@ -15,20 +18,21 @@ from concatenateFeatures import concatenateFeatures
 from getAnnotations import getAnnotations
 import numbers
 import scipy
+#import hdf5storage
 import datetime
 now = datetime.datetime.now()
 import numpy as np
-warnings.filterwarnings("ignore")
-def makePPM(audioDir, annotationloc, fssfile, ppmfilename):
+#warnings.filterwarnings("ignore")
+def makePPM(audioDir, annotationloc, fssfile, ppmfilename,lang):
 
- # Nigel Ward, UTEP, June 2017
+ # translated from original by Nigel Ward, UTEP, June 2017
  # creates a prosody-properties mapping file
  # similar to Jason's getStancePCdata
  #
  # to be called directly, on the top level
  # the return value is normally for debugging only
  # if fssfile is 0, compute and save only frame-level features
-
+  
   provenance = audioDir + ' ' + annotationloc + ' ' +  str(now.month) + '-' + str(now.day) + ' '+ str(now.hour) + ':' + str(now.minute)
 
   if (isinstance(fssfile, numbers.Real) and fssfile == 0):
@@ -38,21 +42,36 @@ def makePPM(audioDir, annotationloc, fssfile, ppmfilename):
     featurespec = getfeaturespec(fssfile)
     stride = 100
 
-  prosodized = prosodizeCorpus(audioDir, annotationloc, featurespec, stride)
+
+  prosodized = prosodizeCorpus(audioDir, annotationloc,featurespec, stride,lang,fssfile)
 
   [means, stddevs] = computeNormalizationParams(prosodized)
   normalized = normalizeCorpus(prosodized, means, stddevs)
 
-  [propValues, propertyNames] = getAnnotations(annotationloc)
+  [propValues, propertyNames] = getAnnotations(annotationloc,lang)
  
   
   model = mergeInPropValues(normalized, propValues)
 
   algorithm = 'knn'
-
+  
+#save ppmfile as .mat 
+#scipy :lower versions <7, no appending possible, overwrites existing
+#  scipy.io.savemat(ppmfilename, {'provenancepy': provenance,'propertyNamespy':propertyNames,\
+#  'featurespecpy':featurespec,'meanspy':means,'stddevspy':stddevs,'modelpy':model,'algorithmpy':algorithm,'featurefilename':fssfile})  
   scipy.io.savemat(ppmfilename, {'provenancepy': provenance,'propertyNamespy':propertyNames,\
-  'featurespecpy':featurespec,'meanspy':means,'stddevspy':stddevs,'modelpy':model,'algorithmpy':algorithm})  
-     
+  'featurespecpy':featurespec,'meanspy':means,'stddevspy':stddevs,'modelpy':model,'algorithmpy':algorithm,'featurefilename':fssfile})  
+ 
+
+    #save the ppmfile as pickle file
+   
+#  with open(ppmfilename, 'wb') as outfile:
+            #pickle version
+           #pickle.dump([provenance,propertyNames,featurespec,means,stddevs,model],outfile, pickle.HIGHEST_PROTOCOL)
+           #cPickle version
+          #pickle.dump([provenance,propertyNames,featurespec,means,stddevs,model],outfile, protocol=2)
+    
+  
   return model
 
 
@@ -81,7 +100,7 @@ def mergeInPropValues(featuresPlus, propertyValues):
 #testing
 #start=time.time()
 #print('creating the model')
-#model= makePPM('stance-master/testeng/audio/', 'stance-master/testeng/annotations/', 'stance-master/src/mono4.fss', 'ppmtestpy')
+#model= makePPM('../testeng/audio/', '../testeng/annotations/', '../testeng/mono4.fss', 'ppmtestpy','E')
 #end=time.time()
 #dur=end-start
 #print('Time taken to create the model :' + str(dur) + '  secs')

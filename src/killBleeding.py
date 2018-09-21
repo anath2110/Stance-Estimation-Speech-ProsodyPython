@@ -21,7 +21,7 @@ def killBleeding(pitchl, pitchr, energyl, energyr):
         
     #the energy features are centered at 5ms, 15ms, 25ms etc
     #the pitch features are center at 10ms, 20ms, 30ms etc. 
-    leftTwentyMsEnergy  = np.add(energyl[:len(energyl)-1],energyr[1:])
+    leftTwentyMsEnergy  = np.add(energyl[:len(energyl)-1],energyl[1:])
     #print(leftTwentyMsEnergy.shape)
     rightTwentyMsEnergy =np.add( energyr[:len(energyr)-1], energyr[1:])
     #print(rightTwentyMsEnergy.shape)   

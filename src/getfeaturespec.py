@@ -123,7 +123,8 @@ def  getfeaturespec(crunchspec):
         print('Feature file doesnot exist' + crunchspec)   
     fid.close()
     return flist
-#flist=getfeaturespec('D:\\Users\\anath\\Documents\\MATLAB\\Python Conversion\\stance-master\\src\\mono4.fss')
+
+#flist=getfeaturespec('../testeng/featurefile/mono4.fss')
 #print(flist)
 
 #durationlist=[]

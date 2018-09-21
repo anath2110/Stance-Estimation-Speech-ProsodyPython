@@ -9,28 +9,30 @@ University of Texas at ElPaso
 from prosprop import prosprop
 import numpy as np
 import scipy
+#import pickle
+#import _pickle as pickle
 from getAnnotations import getAnnotations
 
-def predEval(aufileloc, annotationsDir, ppmfile):
+def predEval(aufileloc, annotationsDir, ppmfile,lang):
 
 # converted from original by Nigel Ward, UTEP, June 2017
 # see ../doc/UTEP-prosody-overview.docx
 # called from the top level, to predict and then evaluate the predictions
 
 # predictions = prosprop(aufileloc, annotationsDir, ppmfile, 10, '');
-    predictions, blvals = prosprop(aufileloc, annotationsDir, ppmfile, 100, 'l')
+    predictions, blvals = prosprop(aufileloc, annotationsDir, ppmfile, 100, 'l',lang)
 
-    annotations,propertyNames = getAnnotations(annotationsDir)
+    annotations,propertyNames = getAnnotations(annotationsDir,lang)
     #print(annotations.shape)
     actual = concatenateTargets(annotations)
 
-    MSE = comparePropVals(predictions, actual, 'Predictions', True)
-    comparePropVals(np.matlib.repmat(blvals, np.shape(actual)[0], 1), actual, 'Baseline', False)
+    MSE = comparePropVals(predictions, actual, 'Predictions', True,lang)
+    comparePropVals(np.matlib.repmat(blvals, np.shape(actual)[0], 1), actual, 'Baseline', False,lang)
     return predictions, MSE
 
 # ------------------------------------------------------------------
-def comparePropVals(predictions, actual, title, printAll):
-
+def comparePropVals(predictions, actual, title, printAll,lang):
+    predictions[np.isnan(predictions)]=0
     if printAll:
         printRows(actual, 'Annotations')
         printRows(predictions, title)
@@ -42,8 +44,17 @@ def comparePropVals(predictions, actual, title, printAll):
     print('')
     printRow(("MSE for %s"% title), MSE)
     print("overall MSE is %.2f" % np.mean(MSE))
-    # Save as matlab variables
-    scipy.io.savemat('testregression', {'predictionspy': predictions})   # for regression testing
+   
+#    # Save as matlab variables
+    regresionmat='testregression' + lang + '.mat'
+    scipy.io.savemat(regresionmat, {'predictionspy': predictions})   # for regression testing
+    
+     # Save as pickle variables
+#    regresionmat='testregression' + lang + '.pkl'
+#
+#    with open(regresionmat, 'wb') as outfile:
+#          #pickle.dump([predictions],outfile, pickle.HIGHEST_PROTOCOL)
+#          pickle.dump([predictions],outfile, protocol=2)
     return MSE
 
 

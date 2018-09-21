@@ -62,15 +62,18 @@ def readStanceSpreadsheet(csvfilename):
     lineOfStarts = rows[4]
     lineOfTags = rows[3]
     line2fields = ''.join(rows[1])
-    aufilebase = line2fields[15:]
+    aufilebase = line2fields[15:] #Turkish
   else:
     lineOfStarts = rows[3]
     lineOfTags = rows[4]
     line3fields = rows[2]
     url = ''.join(line3fields)
-    aufilebase = url[28:]   # hardcoded 
-    #aufilebase = url  # mandarin
+    #aufilebase = url[28:]   # hardcoded 
+    # mandarin
+    aufile = url.split(sep='.')  
+    aufilebase=aufile[0]
   #print(rows[20])
+  #print('in readStanceSpreadsheet')
   #print(aufilebase)
   
   #starts=parseTags(lineOfStarts)
@@ -111,35 +114,35 @@ def parseTags(tagthing):
   
   #print(tagsnonempty.shape)
   #print(len(tagsnonempty))   
+  #print(tagsnonempty)
   return tagsnonempty,len(tagsnonempty)
 '''------------------------------------------------------------------'''
 #converts a sequence like 1:03, 1:25 to [63, 85]
-# can handle mm:ss.dd and hh:mm:ss.dd
+# cannot yet handle mm:ss.dd and hh:mm:ss.dd
 def minsecToSec(timetags):
   timesInSeconds = []
   #print(len(timetags))
   for nsi in range(len(timetags)):
+    #print(nsi)
     #str1 = ''.join(timetags[nsi]) #converted each tag  to string 
     #timespec = str1.find(':')    
     #print(timespec)
     #numberOfColons=str1.count(':') 
     #print(numberOfColons)
-    #if numberOfColons == 2: # for the format hh:mm:ss
-      #timespec = timetags[nsi][3:]
-    #else:
-    timespec = timetags[nsi]
+#    if numberOfColons == 2: # for the format hh:mm:ss
+#      timespec = timetags[nsi][3:]
+#    else:
+    timespec = timetags[nsi] #mandarin
     #print(timespec)
     minsec = timespec.split(':')
-    #dpart=minsec[1].split('.') #Turkish
+    dpart=minsec[1].split('.') #Turkish
     #print(minsec)
     #print((minsec[0]))
     #print(int(minsec[1]))
-    #print(dpart)
-    timeInSeconds =60 * int(minsec[0]) + int(minsec[1])  #convert minutes and seconds to seconds
-    #timeInSeconds =60 * int(minsec[0]) + int(dpart[0]) #Turkish
+    timeInSeconds =60 * int(minsec[0]) + int(dpart[0]) #Turkish #convert minutes and seconds to seconds
     timesInSeconds.append(timeInSeconds)
     timesinsecs=np.asarray(timesInSeconds)
-    #print(timesInSeconds)
+  #print(timesInSeconds)
   return timesinsecs
 def parseStanceVals(stancerows,noofannotatedcolums):
     #print(len(stancerows))
@@ -147,25 +150,31 @@ def parseStanceVals(stancerows,noofannotatedcolums):
     stancevalues=[]
     for sr in range(len(stancerows)):
         # get stancenames from the stance-name(1st) column , store it separately      
-            
+        #print('sr')
         stancenamecolumn=''.join(stancerows[sr][0]) #convert stancename column of each row to string       
         if(stancenamecolumn!=""):    # skip those rows which are blank,no stance names
           stancenames.append(stancenamecolumn) 
           for sv in  range(1,(noofannotatedcolums + 1)):
-           
+            #print('sv')
             if (''.join(stancerows[sr][sv])==""): # those columns having no stances, make them 0
                 stancerows[sr][sv]=0
             #print(stancerows[sr][sv])
-            stancerows[sr][sv]=float(stancerows[sr][sv])
+            stancerows[sr][sv]=int(stancerows[sr][sv])
           stancevalues.append(stancerows[sr][1:noofannotatedcolums + 1])
         
        
     stancenames=np.asarray(stancenames)# convert to numpy for easier access in other functions
-    stancevalues=np.asarray(stancevalues)# convert to numpy for easier access in other functions
-    #stancevalues=np.asfarray(stancevalues,dtype=np.float32)
-    #stancevalues = np.fromstring(stancevalues, dtype=np.float)
-    
-    return stancevalues,stancenames
+    stancevals=np.asarray(stancevalues)# convert to numpy for easier access in other functions
+     #print(stancevalues)
+    #for mandarin
+    #cols=stancevals.shape[1]
+   # print('stancevalsrows')
+    #print(stancevals.shape[0])
+    #print('stancevalscols')
+    #print(cols)
+    #stanceval = np.ndarray(shape=(14,cols),dtype='float32', buffer=stancevals)
+    #print(stanceval)
+    return stancevals,stancenames
     
         
      
@@ -188,8 +197,9 @@ def isAppenFormat(row1):
 #to test:
 #readSpreadsheet('stance-master/testeng/annotations/stance_ChevLocalNewsJuly3_L.csv');
 
-#[vals, tags, starts, aufile, stNames] = readStanceSpreadsheet('stance-master/testeng/annotations/stance_ChevLocalNewsJuly3_L.csv')
-#[vals, tags, starts, aufile, stNames] = readStanceSpreadsheet('../Turkish stance data/Turkish/All_Annotations/')
+#[vals, tags, starts, aufile, stNames] = readStanceSpreadsheet('../../mandarin/trainAnnotationsCSV/')
+#[vals, tags, starts, aufile, stNames] = readStanceSpreadsheet('../../Turkish/All_Annotations/TRAIN/')
+
 #np.set_printoptions(threshold=np.inf)
 #for i in range(0,len(tags)):
-# print(vals[i])
+    #print(vals[i])

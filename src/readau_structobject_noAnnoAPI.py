@@ -19,7 +19,7 @@ class SignalObj(object):
                 #print("ERROR: Wav modules could not loaded!")
                 print("ERROR: Au modules could not loaded!")
                 raise KeyboardInterrupt
-            self.fs, self.data,self.channels = readau(args[0])
+            self.fs, self.data,self.channels,self.duration = readau(args[0])
             self.fs = float(self.fs)
             self.nbits = int(16)         
             self.name = args[0]

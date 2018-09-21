@@ -12,7 +12,7 @@ import os
 import warnings
 from readStanceAnnotations import readStanceAnnotations 
 
-def  getAnnotations(annotationDir):
+def  getAnnotations(annotationDir,lang):
 
   #converted from original by Nigel Ward, UTEP, June 2017
   #propertyValues is a cell array, one cell per news segment
@@ -20,7 +20,7 @@ def  getAnnotations(annotationDir):
   #this function essentiall just reformats flat arrays into an array of structs
 
   if isUtepAnnotationDir(annotationDir)==True:
-      vals, tags,segStarts, segEnds, segUrls, propertyNames = readStanceAnnotations(annotationDir)
+      vals, tags,segStarts, segEnds, segUrls, propertyNames = readStanceAnnotations(annotationDir,lang)
       
       nsegments = len(segStarts)
       segStructs = np.empty(nsegments, dtype=[('properties','f4',(14,)),('starts','i4'),('broadcast', 'S100')])
