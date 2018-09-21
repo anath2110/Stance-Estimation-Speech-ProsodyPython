@@ -41,11 +41,10 @@ def prosprop(audioDir,ppmfile, stride, flags,lang,**kwargs):
     meanspy =ppmfilepy['meanspy']
     stddevspy =ppmfilepy['stddevspy']
     modelpy =ppmfilepy['modelpy']
-    algorithmpy =ppmfilepy['algorithmpy']  
-    featurefilename=ppmfilepy['featurefilename']
+    #algorithmpy =ppmfilepy['algorithmpy']    
     
     print("processing '%s' with respect to %s (%s)\n" % (audioDir,ppmfile,provenancepy))
-    testProsodized = prosodizeCorpus(audioDir,featurespecpy, 100,lang,featurefilename,**kwargs)
+    testProsodized = prosodizeCorpus(audioDir,featurespecpy, 100,lang,**kwargs)
     testNormalized = normalizeCorpus(testProsodized, meanspy, stddevspy)
 
     #[patchFeatures, patchProperties] = prepForKnn(modelpy, -1, True)

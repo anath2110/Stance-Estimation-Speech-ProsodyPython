@@ -5,10 +5,10 @@ Created on Thur Dec 14 13:30:49 2017
 University of Texas at ElPaso
 """
 
-#import warnings
+import warnings
 
 #import pickle
-#import _pickle as pickle # cPickle version is so named in Python 3.x
+import _pickle as pickle
 import time
 import os
 from prosodizeCorpus import prosodizeCorpus
@@ -18,21 +18,20 @@ from concatenateFeatures import concatenateFeatures
 from getAnnotations import getAnnotations
 import numbers
 import scipy
-#import hdf5storage
 import datetime
 now = datetime.datetime.now()
 import numpy as np
-#warnings.filterwarnings("ignore")
+warnings.filterwarnings("ignore")
 def makePPM(audioDir, annotationloc, fssfile, ppmfilename,lang):
 
- # translated from original by Nigel Ward, UTEP, June 2017
+ # Nigel Ward, UTEP, June 2017
  # creates a prosody-properties mapping file
  # similar to Jason's getStancePCdata
  #
  # to be called directly, on the top level
  # the return value is normally for debugging only
  # if fssfile is 0, compute and save only frame-level features
-  
+
   provenance = audioDir + ' ' + annotationloc + ' ' +  str(now.month) + '-' + str(now.day) + ' '+ str(now.hour) + ':' + str(now.minute)
 
   if (isinstance(fssfile, numbers.Real) and fssfile == 0):
@@ -42,8 +41,7 @@ def makePPM(audioDir, annotationloc, fssfile, ppmfilename,lang):
     featurespec = getfeaturespec(fssfile)
     stride = 100
 
-
-  prosodized = prosodizeCorpus(audioDir, annotationloc,featurespec, stride,lang,fssfile)
+  prosodized = prosodizeCorpus(audioDir, annotationloc, featurespec, stride,lang)
 
   [means, stddevs] = computeNormalizationParams(prosodized)
   normalized = normalizeCorpus(prosodized, means, stddevs)
@@ -55,21 +53,16 @@ def makePPM(audioDir, annotationloc, fssfile, ppmfilename,lang):
 
   algorithm = 'knn'
   
-#save ppmfile as .mat 
-#scipy :lower versions <7, no appending possible, overwrites existing
-#  scipy.io.savemat(ppmfilename, {'provenancepy': provenance,'propertyNamespy':propertyNames,\
-#  'featurespecpy':featurespec,'meanspy':means,'stddevspy':stddevs,'modelpy':model,'algorithmpy':algorithm,'featurefilename':fssfile})  
-  scipy.io.savemat(ppmfilename, {'provenancepy': provenance,'propertyNamespy':propertyNames,\
-  'featurespecpy':featurespec,'meanspy':means,'stddevspy':stddevs,'modelpy':model,'algorithmpy':algorithm,'featurefilename':fssfile})  
+  #save ppmfile as .mat 
  
-
-    #save the ppmfile as pickle file
+#  scipy.io.savemat(ppmfilename, {'provenancepy': provenance,'propertyNamespy':propertyNames,\
+#  'featurespecpy':featurespec,'meanspy':means,'stddevspy':stddevs,'modelpy':model,'algorithmpy':algorithm})  
    
-#  with open(ppmfilename, 'wb') as outfile:
-            #pickle version
-           #pickle.dump([provenance,propertyNames,featurespec,means,stddevs,model],outfile, pickle.HIGHEST_PROTOCOL)
-           #cPickle version
-          #pickle.dump([provenance,propertyNames,featurespec,means,stddevs,model],outfile, protocol=2)
+    #save the ppmfile as pickle file
+    #if the file exists, append the new data, else create it 
+  with open(ppmfilename, 'wb') as outfile:
+          #pickle.dump([provenance,propertyNames,featurespec,means,stddevs,model],outfile, pickle.HIGHEST_PROTOCOL)
+          pickle.dump([provenance,propertyNames,featurespec,means,stddevs,model],outfile, protocol=2)
     
   
   return model

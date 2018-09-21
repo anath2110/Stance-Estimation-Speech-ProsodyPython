@@ -37,30 +37,27 @@ def prosprop(audioDir, segInfoDir, ppmfile, stride, flags,lang):
     print('loading ppm file: %s\n' %ppmfile)
     # load from .mat file
     
-    ppmfilepy=scipy.io.loadmat(ppmfile,struct_as_record=False, squeeze_me=True)
-    provenancepy =ppmfilepy['provenancepy']
-    propertyNamespy =ppmfilepy['propertyNamespy']
-    featurespecpy =ppmfilepy['featurespecpy']    
-    meanspy =ppmfilepy['meanspy']
-    stddevspy =ppmfilepy['stddevspy']
-    modelpy =ppmfilepy['modelpy']
-    algorithmpy =ppmfilepy['algorithmpy'] 
-    featurefilename=ppmfilepy['featurefilename']
-    
+#    ppmfilepy=scipy.io.loadmat(ppmfile,struct_as_record=False, squeeze_me=True)
+#    provenancepy =ppmfilepy['provenancepy']
+#    propertyNamespy =ppmfilepy['propertyNamespy']
+#    featurespecpy =ppmfilepy['featurespecpy']    
+#    meanspy =ppmfilepy['meanspy']
+#    stddevspy =ppmfilepy['stddevspy']
+#    modelpy =ppmfilepy['modelpy']
+#    algorithmpy =ppmfilepy['algorithmpy'] 
+   
     # load from .pkl file
-#    with open(ppmfile, 'rb') as f:
-#            ppmfilepy = pickle.load(f)
-#            
-#    provenancepy = ppmfilepy[0]
-#    propertyNamespy=ppmfilepy[1]
-#    featurespecpy = ppmfilepy[2]     
-#    meanspy = ppmfilepy[3]
-#    stddevspy = ppmfilepy[4]      
-#    modelpy = ppmfilepy[5]
+    with open(ppmfile, 'rb') as f:
+            ppmfilepy = pickle.load(f)
+            
+    provenancepy = ppmfilepy[0]
+    propertyNamespy=ppmfilepy[1]
+    featurespecpy = ppmfilepy[2]     
+    meanspy = ppmfilepy[3]
+    stddevspy = ppmfilepy[4]      
+    modelpy = ppmfilepy[5]
     print("processing '%s' with respect to %s (%s)\n" % (audioDir,ppmfile,provenancepy))
-
-    testProsodized = prosodizeCorpus(audioDir, segInfoDir, featurespecpy, 100,lang,featurefilename)
-    
+    testProsodized = prosodizeCorpus(audioDir, segInfoDir, featurespecpy, 100,lang)
     testNormalized = normalizeCorpus(testProsodized, meanspy, stddevspy)
 
     [patchFeatures, patchProperties] = prepForKnn(modelpy, -1, True)
@@ -74,14 +71,13 @@ def prosprop(audioDir, segInfoDir, ppmfile, stride, flags,lang):
     print(' patchwiseKnn on segment: \n')
     for i in range(nsegments):
         progressBar(i)
-        
+
         segmentData = testNormalized[i].features;
-        if leaveOneOut:            
+        if leaveOneOut:
+            #print('leaveoneout')
             indicesToExclude = i
-            print('leaveoneout from modelpy' + str(indicesToExclude))
             patchFeatures, patchProperties = prepForKnn(modelpy, indicesToExclude, False)
         if segmentData.size !=0:
-            print('testsegment' + str(i))
             propvals[i,:], votePerPatch, patchNeighbors=patchwiseKNN(segmentData, patchFeatures, patchProperties, 3)
        
         #print(propvals)

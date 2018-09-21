@@ -10,7 +10,7 @@ from prosprop import prosprop
 import numpy as np
 import scipy
 #import pickle
-#import _pickle as pickle
+import _pickle as pickle
 from getAnnotations import getAnnotations
 
 def predEval(aufileloc, annotationsDir, ppmfile,lang):
@@ -46,15 +46,15 @@ def comparePropVals(predictions, actual, title, printAll,lang):
     print("overall MSE is %.2f" % np.mean(MSE))
    
 #    # Save as matlab variables
-    regresionmat='testregression' + lang + '.mat'
-    scipy.io.savemat(regresionmat, {'predictionspy': predictions})   # for regression testing
+#    regresionmat='testregression' + lang + '.mat'
+#    scipy.io.savemat(regresionmat, {'predictionspy': predictions})   # for regression testing
     
      # Save as pickle variables
-#    regresionmat='testregression' + lang + '.pkl'
-#
-#    with open(regresionmat, 'wb') as outfile:
-#          #pickle.dump([predictions],outfile, pickle.HIGHEST_PROTOCOL)
-#          pickle.dump([predictions],outfile, protocol=2)
+    regresionmat='testregression' + lang + '.pkl'
+
+    with open(regresionmat, 'wb') as outfile:
+          #pickle.dump([predictions],outfile, pickle.HIGHEST_PROTOCOL)
+          pickle.dump([predictions],outfile, protocol=2)
     return MSE
 
 

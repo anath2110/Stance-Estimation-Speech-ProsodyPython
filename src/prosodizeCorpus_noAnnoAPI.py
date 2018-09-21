@@ -10,19 +10,17 @@ University of Texas at ElPaso
 import numpy as np
 #import collections
 #import pandas as pd
-import hdf5storage
 from makeTrackSpecs import makeTrackspec
 from getAudioInfo_noAnnoAPI import getAudioInfo
 #import numbers
 import math
-#import scipy
-import os
+import scipy
 from makeTrackMonster import makeTrackMonster
 #from getSegInfo import getSegInfo
-#from getfeaturespec import getfeaturespec
+from getfeaturespec import getfeaturespec
 import segDataObject_noAnnoAPI as clssegobj
-def prosodizeCorpus(audioDir,featurespec, stride,lang,fssfile,**kwargs):
-    # translated and modified from original by Nigel Ward, UTEP, June 2017
+def prosodizeCorpus(audioDir,featurespec, stride,lang,**kwargs):
+    # converted from original by Nigel Ward, UTEP, June 2017
         # creates a nice data structure representing the prosodic information etc.
         # This data structure is the
         # inputs: audioDir, varies in format, UTEP or LDC
@@ -35,25 +33,45 @@ def prosodizeCorpus(audioDir,featurespec, stride,lang,fssfile,**kwargs):
         # This function does not add props (annotation info);
         # since that is added later if needed.
         # Notice also that the output is not z-normalized; that's done later
+        # test with x = prosodizeCorpus('testAudio', 'testAnnotations', ...
+        # getfeaturespec('src/mono4.fss');
+        # and then examine x{1}, x{2}, etc.
         
-    # for an audio with no annotations 
-    
     starts, ends, aufiles = getAudioInfo(audioDir,**kwargs)
-    
+    # for a single audio with no annotations get the duration of the audio \
+    # and poass it as a segment
     
     #print('in prosodize corpus')
     nsegments = len(starts)
     #print('nsegments %d' %nsegments)
-    segData=[]  
-  
+    segData=[]   
     for i in range(nsegments): 
         
         #print('in segment =%d' %i)
         #print('auname=%s' %aufiles[i])
-        segData.append(clssegobj.segDataObj(i,aufiles[i], starts[i], ends[i],featurespec, audioDir, stride,lang,nsegments,fssfile))     
-          
+        segData.append(clssegobj.segDataObj(i,aufiles[i], starts[i], ends[i],featurespec, audioDir, stride,lang))     
         
-   
+        #segfeatures = featuresForSegment(i,aufiles[i], starts[i], ends[i],featurespec, audioDir, stride)
+        # Converting to single saves diskspace for ppmfiles, maybe time too,
+        # and gives the same answers, but it causes annoying warnings
+        #when running knnsearch, so for now we don't do it
+        # segfeatures = single(segfeatures);
+        #features=(addTemporalFeatures(segfeatures, stride))
+        #print(features.shape)
+#        if(i==0):
+#            segData = np.array(nsegments, dtype=[('features','f4',(14,19)),('startTime','i4'),('endTime','i4'),('broadcastName', 'S100'),('properties', 'S100')])
+#            segData['features'][i] = features       
+#            segData['startTime'][i]=int(starts[i])     
+#            segData['endTime'][i]=int(ends[i])      
+#            segData['broadcastName'][i]= aufiles[i].decode('UTF-8')     
+#            segData['properties'][i]= ''# empty, possibly added later
+#        else:
+#            segData['features'][i] = features       
+#            segData['startTime'][i]=int(starts[i])     
+#            segData['endTime'][i]=int(ends[i])      
+#            segData['broadcastName'][i]= aufiles[i].decode('UTF-8')     
+#            segData['properties'][i]= ''# empty, possibly added later 
+#        
         
     #scipy.io.savemat('segdatapy.mat', {'segdatapy': segData})
     return segData
@@ -78,9 +96,9 @@ def addTemporalFeatures(features, stride):
     return augmentedFeatures
 
 # ------------------------------------------------------------------
-def featuresForSegment(i,aufile, startTime, endTime, featurespec, audioDir, stride,lang,fssfile):
+def featuresForSegment(i,aufile, startTime, endTime, featurespec, audioDir, stride,lang):
     # aufile = char(aufile)
-    monster = findTrackMonster(i,aufile, audioDir, featurespec,lang,fssfile)
+    monster = findTrackMonster(i,aufile, audioDir, featurespec,lang)
     #print(monster.shape)
     framesPerSecond = 100 #what makeTrackMonster returns
     startFrame = max(0, int(math.floor(startTime * framesPerSecond)- 1))
@@ -115,128 +133,72 @@ def twiddleEndFrame(aufile, segStartFrame, segEndFrame, monsterEndFrame):
     # ------------------------------------------------------------------
     #lookup saved prosodic features in cache or compute the
 
-def findTrackMonster(i,base, directory, featurespec,lang,nsegments,fssfile):
-   #print(i)
-    global savedMonsters
-    #global savedkeyindex
-    
-    base=base.decode('UTF-8') # it otherwise appears in byte form, with a 'b' prefixed at front
-    file = base +'.au'    
-    
-#if the monster exists and it is made of same featurefile and \
-#same audios, just load the .mat and read values
-    savemonsmat='monster' + lang # name of the .mat file
-    
-    if(os.path.exists(savemonsmat + '.mat')):
-       #print("reading saved monster")
-       monstermat=hdf5storage.loadmat(savemonsmat)
-       featurefilename=monstermat['featurefilename'] 
-       if(featurefilename==fssfile):
-             #print("featurefile matched")
-             if(file in list(monstermat.keys())):                  
-                 #print("audio matched with key")
-                 #savedkeyindex=file
-                 monster=monstermat[file]                
-                 
-                 return monster
-                 
-             else:
-                #print(i)
-                if (i==0):   
-                    savedMonsters = {}# to save the monster features\
-                                      # with corresponding audioname in this dictionary 
-                    trackspec = makeTrackspec('l', file,directory) 
-                    # monster called
-                    #print('monster called')
-                    fcframe,newMonster = makeTrackMonster(trackspec, featurespec) 
-                    monstDictkey = '%s' % file  
-                    savedMonsters[monstDictkey] = newMonster                             
-                    monster=newMonster       
-            
-                else:        
-                    keys=list(savedMonsters.keys()) 
-                    index=len(savedMonsters)-1
-                    if file==keys[index]:
-                                #print('filename' + ' ' + file)
-                                #print('key' + ' ' + keys[index])
-                                #print('filename same as key name as saved file')
-                                monster = savedMonsters[keys[index]]                 
-                    else:
-                            trackspec = makeTrackspec('l', file,directory) 
-                            # monster called
-                            #print('monster called when dict not empty')
-                            fcframe,newMonster = makeTrackMonster(trackspec, featurespec) 
-                            monstDictkey = '%s' % file  
-                            savedMonsters[monstDictkey] = newMonster                             
-                            monster=newMonster 
-                   
-       
-                if(i==(nsegments-1)):
-                #save as .mat  
-                    #print('saving in .mat')               
-                    #savemonsmat='monster' + lang # name of the .mat file 
-                    #scipy.io.savemat(savemonsmat, {savemonsmat: savedMonsters})
-                    #'appendmat' appends'.mat' extension,truncate_existing=False appends to existing else overwrites 
-                    # can store in version >=7.3, needed for large .mat files
-                    hdf5storage.savemat(savemonsmat, savedMonsters,appendmat=True,format='7.3',truncate_existing=False)
-                        
-    else:            
+def findTrackMonster(i,base, directory, featurespec,lang):
+    global savedFile
+    global savedMonster
+    myDictionary = {}
+    #print(base)
    
-        if (i==0):  
-            savedMonsters={}
-            savedMonsters[u'featurefilename']=fssfile  
-          # to save the monster features\
-                              # with corresponding audioname in this dictionary 
-            trackspec = makeTrackspec('l', file,directory) 
-            # monster called
-            #print('monster called')
-            fcframe,newMonster = makeTrackMonster(trackspec, featurespec) 
-            monstDictkey = '%s' % file  
-            savedMonsters[monstDictkey] = newMonster                             
-            monster=newMonster       
-            
-        else:        
-            keys=list(savedMonsters.keys()) 
-            index=len(savedMonsters)-1
-            if file==keys[index]:
-                        #print('filename' + ' ' + file)
-                        #print('key' + ' ' + keys[index])
-                        #print('filename same as key name as saved file')
-                        monster = savedMonsters[keys[index]]                 
-            else:
-                    trackspec = makeTrackspec('l', file,directory) 
-                    # monster called
-                    #print('monster called when dict not empty')
-                    fcframe,newMonster = makeTrackMonster(trackspec, featurespec) 
-                    monstDictkey = '%s' % file  
-                    savedMonsters[monstDictkey] = newMonster                             
-                    monster=newMonster 
-                   
-       
-        if(i==(nsegments-1)): # save only once when you reach the last index, one short of length in python
-        #save as .mat  
-            #print('saving in .mat')               
-            #savemonsmat='monster' + lang # name of the .mat file 
-            #scipy.io.savemat(savemonsmat, {savemonsmat: savedMonsters})
-            #'appendmat' appends'.mat' extension,truncate_existing=False appends to existing else overwrites 
-            # can store in version >=7.3, needed for large .mat files
-            hdf5storage.savemat(savemonsmat, savedMonsters,appendmat=True,format='7.3',truncate_existing=False)
-                
+    #base=base.decode('UTF-8') # it otherwise appears in byte form, with a 'b' prefixed at front
+    #file = base +'.au'
+    file=base;
+    #print(file)
+    if (i==0): 
+        newkey = 'monster%d' % i
         
-        #save as pickle- inbuilt python library to persist variables between sessions    
-                
-            #savemons='monster' + lang +'.pkl'
-            #for appending in existing pickle file,doesnot work
-    #        if os.path.exists(savemons):
-    #            with open(savemons, 'rb') as infile:
-    #              savemonsDict = pickle.load(infile)
-    #            savemonsDict.append(savedMonsters)
-    #        else:
-    #        with open(savemons, 'wb') as outfile:
-    #          pickle.dump([savedMonsters],outfile, protocol=3)
-   
+        savedFile=file
+        #print("in first if")        
+        trackspec = makeTrackspec('l', file,directory) 
+        fcframe,newMonster = makeTrackMonster(trackspec, featurespec) 
+        
+        
+        #print("call monster")
+        #print(i)        
+        #print("file")
+        #print(file)
+        #print("savedFile")
+        #print(savedFile)
+        savedMonster=newMonster
+        monster=newMonster
+        myDictionary[newkey] = monster
+    else:
+        if(savedFile==file):
+           #print("in first else second if")
+           #print("NO Monster")
+#           print(i)
+#           print("file")
+#           print(file)
+#           print("savedFile")
+#           print(savedFile)
+           monster= savedMonster
+          
+        else:
+            newkey = 'monster%d' % i
+            savedFile=file
+            trackspec = makeTrackspec('l', file,directory) 
+            fcframe,newMonster = makeTrackMonster(trackspec, featurespec)  
+            
+            #print("in second else")
+            #print("Call monster2")
+            #print(i)
+            #print("file")
+            #print(file)
+            savedMonster=newMonster
+            monster=newMonster
+            myDictionary[newkey] = monster
+                        
+    savemonsmat='monster' + lang +'.mat'
+    scipy.io.savemat(savemonsmat, {savemonsmat: myDictionary})
+    
+
     return monster
 
+    # test with
+        # cd ppm / testeng or small - turkish etc.
+#segData= prosodizeCorpus('stance-master/testeng/audio/', 'stance-master/testeng/annotations/', getfeaturespec('stance-master/src/mono4.fss'), 100)
+#segData= prosodizeCorpus('../../mandarin/7audio/', '../../mandarin/7audio/annotations/', getfeaturespec('../testeng/featurefile/mono4.fss'), 100)
+#print(segData)
+#np.set_printoptions(threshold=np.inf)
 
 
 

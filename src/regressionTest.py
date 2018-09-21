@@ -18,17 +18,16 @@ import _pickle as pickle
 def regressionTest(pathtoaudiodir,pathtoannodir,ppmfile,lang):   
 
     results, MSE = predEval(pathtoaudiodir, pathtoannodir, ppmfile,lang)
-    #save regression results in .mat
-    regresionmat='testregression' + lang + '.mat'
-    predictionsfile=scipy.io.loadmat(regresionmat,struct_as_record=False)
-    predictions =predictionsfile['predictionspy']  
-    predictions = np.array(predictions) 
+    #save in .mat
+    #regresionmat='testregression' + lang + '.mat'
+#    predictionsfile=scipy.io.loadmat(regresionmat,struct_as_record=False)
+#    predictions =predictionsfile['predictionspy']   
 
-#    regresionpickle='testregression' + lang + '.pkl'
-#    with open(regresionpickle, 'rb') as f:
-#            predictionsfile = pickle.load(f)
-#            
-    #predictions = np.array(predictionsfile[0])       
+    regresionpickle='testregression' + lang + '.pkl'
+    with open(regresionpickle, 'rb') as f:
+            predictionsfile = pickle.load(f)
+            
+    predictions = np.array(predictionsfile[0])       
       
 
     permissibleError = 0.1 # on a scale from 0 to 2
