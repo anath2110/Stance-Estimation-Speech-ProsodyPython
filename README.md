@@ -1,2 +1,3 @@
-# Python_stance-midlevel
-This is where you will find the mid-level code and the stance estimation codes for LORELEI, previously done in MATLAB, now converted to Python.
+# Predicting stance attributes form recorded speech with Python
+<br> Includes prosody feature extraction and stance estimation codes for the LORELEI project sposored by DARPA.
+<br> Documentation, see doc/pyprosprop.pdf
